@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 group-logo="http://12537-stream-ip-tv.xyz/logo.png",
+#EXTGRP:[ INFORMATION ]
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/logo.png",# Dilarang mengakses diluar browser dan aplikasi IPTV
+#EXTGRP:[ INFORMATION ]
+http://thefirefox12537.github.io/streams/nosignal/index.m3u8
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/logo.png",# Please refresh this playlist manually
+#EXTGRP:[ INFORMATION ]
+http://thefirefox12537.github.io/streams/nosignal/index.m3u8
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/logo.png",# while the provider announced or not auto-update yet
+#EXTGRP:[ INFORMATION ]
+http://thefirefox12537.github.io/streams/nosignal/index.m3u8
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/logo.png",DO NOT FOR SALE
+#EXTGRP:[ INFORMATION ]
+http://thefirefox12537.github.io/streams/nosignal/index.m3u8
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/logo.png",THANKS TO USING THIS PLAYLIST
+#EXTGRP:[ INFORMATION ]
+http://thefirefox12537.github.io/streams/nosignal/index.m3u8
+#EXTINF:-1 tvg-logo="http://12537-stream-ip-tv.xyz/logo.png",VISIT t.me/pl_12537iptv
+#EXTGRP:[ INFORMATION ]
+http://thefirefox12537.github.io/streams/nosignal/index.m3u8
