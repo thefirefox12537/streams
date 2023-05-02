@@ -1,4 +1,4 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=2692000,RESOLUTION=1280x720
-http://edge.metrotvnews.com:1935/live-edge/smil:mgnch.smil/chunklist_w241242513_b2692000_sleng.m3u8
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=2692000,RESOLUTION=1280x720
+http://edge.metrotvnews.com:1935/live-edge/smil:mgnch.smil/chunklist_w241242513_b2692000_sleng.m3u8
