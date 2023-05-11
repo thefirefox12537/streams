@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Nagaswara Dangdut Koplo
+name: Streams
 
 # Controls when the action will run. 
 on:
@@ -37,11 +37,19 @@ jobs:
           git config --global user.email "reinmclaren33@gmail.com"
           git config --global user.name "Faizal Hamzah"
 
-
-      - name: Main
+      - name: update streams
         run: |
           pwd
+          python3 api/prodeo/index.py 7464 > ajewa.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/c/aquariusmusikindo/live" > akuarius.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/watch?v=0Kln8aj0v3E" > beenchenel.m3u8
+          python3 api/prodeo/index.py 7052 > hiphiphore.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/c/musicastudios/live" > musika.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/watch?v=NYoNORroe3o" > nagaswaradensdut.m3u8
           python3 api/yt/index.py "https://www.youtube.com/watch?v=Gvfr_OoTp1E" > nagaswarakoplo.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/watch?v=Is03gZsBeq0" > nagaswarapop.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/watch?v=Qk-QnFxIZ88" > nagaswarareligi.m3u8
+          python3 api/prodeo/index.py 7946 > tempo.m3u8
 
       - name: git add
         run: |
@@ -50,5 +58,5 @@ jobs:
 
       - name: commit & push
         run: |
-          git commit -m "Link updated"
+          git commit -m "Update streams"
           git push
