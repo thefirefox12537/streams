@@ -25,7 +25,7 @@ def grab(url):
         return nosignal()
     else:
         get = requests.get(decode_m3u8).text
-        if '.m3u8' not in get:
+        if '403 (Forbidden)' in get:
             return nosignal()
         else:
             return get
