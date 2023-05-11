@@ -11,9 +11,10 @@ if 'win' in sys.platform:
     windows = True
 
 def nosignal():
-    m3u8_get = requests.get('http://thefirefox12537.github.io/streams/nosignal/index.m3u8').text
-    repl_1 = m3u8_get.replace('01.m3u8', '/nosignal/01.m3u8')
-    repl_2 = repl_1.replace('02.m3u8', '/nosignal/02.m3u8')
+    url = 'http://thefirefox12537.github.io/streams/nosignal'
+    m3u8_get = requests.get(url + '/index.m3u8').text
+    repl_1 = m3u8_get.replace('01.m3u8', url + '/01.m3u8')
+    repl_2 = repl_1.replace('02.m3u8', url + '/02.m3u8')
     return repl_2
 
 def grab(url):
