@@ -24,7 +24,11 @@ def grab(url):
     if '.m3u8' not in decode_m3u8:
         return nosignal()
     else:
-        return requests.get(decode_m3u8).text
+        get = requests.get(decode_m3u8).text
+        if '.m3u8' not in get:
+            return nosignal()
+        else:
+            return get
 
 s = requests.Session()
 result = grab(str(sys.argv[1]))
