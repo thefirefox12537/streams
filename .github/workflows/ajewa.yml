@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Nagaswara Dangdut Koplo
+name: Ajwa TV
 
 # Controls when the action will run. 
 on:
@@ -41,7 +41,7 @@ jobs:
       - name: Main
         run: |
           pwd
-          python3 api/yt/index.py "https://www.youtube.com/watch?v=Gvfr_OoTp1E" > nagaswarakoplo.m3u8
+          python3 api/prodeo/index.py 7464 > ajewa.m3u8
 
       - name: git add
         run: |
