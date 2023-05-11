@@ -40,8 +40,8 @@ jobs:
       
       - name: Main
         run: |
-          pwd
           cd ytlive
+          pwd
           chmod +x akuarius.sh
           ./akuarius.sh
         
