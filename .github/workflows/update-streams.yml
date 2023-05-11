@@ -50,6 +50,8 @@ jobs:
           python3 api/yt/index.py "https://www.youtube.com/watch?v=Is03gZsBeq0" > nagaswarapop.m3u8
           python3 api/yt/index.py "https://www.youtube.com/watch?v=Qk-QnFxIZ88" > nagaswarareligi.m3u8
           python3 api/prodeo/index.py 7946 > tempo.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/c/tvonenews/live" > tiviwan.m3u8
+          python3 api/yt/index.py "https://www.youtube.com/c/kompastv/live" > kompasteve.m3u8
 
       - name: git add
         run: |
