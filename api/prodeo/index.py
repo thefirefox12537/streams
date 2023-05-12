@@ -20,10 +20,12 @@ def grab(url):
     if '.m3u8' not in response:
         return nosignal()
     else:
-        if '403', '404', '500' in response:
-            return nosignal()
-        else:
-            return response
+        for code in '403', '404', '500':
+            if code in response:
+                return nosignal()
+            else:
+                break
+        return response
 
 s = requests.Session()
 result = grab('https://vidiohls.thescript2.workers.dev/apiv2.php?id=' + str(sys.argv[1]))
