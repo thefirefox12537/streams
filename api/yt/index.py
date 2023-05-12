@@ -16,7 +16,7 @@ if 'win' in sys.platform:
 def nosignal():
     url = 'http://thefirefox12537.github.io/streams/nosignal'
     m3u8_get = requests.get(f"{url}/index.m3u8").text
-    for ts in ('01.m3u8', '02.m3u8'):
+    for ts in ['01.m3u8', '02.m3u8']:
         m3u8_get = m3u8_get.replace(ts, f"{url}/{ts}")
     return m3u8_get
 
@@ -28,7 +28,7 @@ def grab(url):
         return nosignal()
     else:
         m3u8_get = requests.get(decode).text
-        if '403 (Forbidden)' in m3u8_get:
+        if '403 ' in m3u8_get:
             return nosignal()
         else:
             return m3u8_get

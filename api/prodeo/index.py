@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+from urllib.parse import unquote
 import requests
+import re
 import os
 import sys
 
@@ -11,7 +13,7 @@ if 'win' in sys.platform:
 def nosignal():
     url = 'http://thefirefox12537.github.io/streams/nosignal'
     m3u8_get = requests.get(f"{url}/index.m3u8").text
-    for ts in ('01.m3u8', '02.m3u8'):
+    for ts in ['01.m3u8', '02.m3u8']:
         m3u8_get = m3u8_get.replace(ts, f"{url}/{ts}")
     return m3u8_get
 
@@ -20,7 +22,7 @@ def grab(url):
     if '.m3u8' not in response:
         return nosignal()
     else:
-        for code in '403', '404', '500':
+        for code in ['403 ', '404 ', '500 ']:
             if code in response:
                 return nosignal()
             else:
