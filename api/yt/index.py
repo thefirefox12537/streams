@@ -1,4 +1,7 @@
-#! /usr/bin/python3
+#!/usr/bin/python3
+
+# Youtube Live to HLS API Python
+# Created by:  @thefirefox12537
 
 from urllib.parse import unquote
 import requests
@@ -12,23 +15,23 @@ if 'win' in sys.platform:
 
 def nosignal():
     url = 'http://thefirefox12537.github.io/streams/nosignal'
-    m3u8_get = requests.get(url + '/index.m3u8').text
-    repl_1 = m3u8_get.replace('01.m3u8', url + '/01.m3u8')
-    repl_2 = repl_1.replace('02.m3u8', url + '/02.m3u8')
-    return repl_2
+    m3u8_get = requests.get(f"{url}/index.m3u8").text
+    for ts in ('01.m3u8', '02.m3u8'):
+        m3u8_get = m3u8_get.replace(ts, f"{url}/{ts}")
+    return m3u8_get
 
 def grab(url):
-    get_m3u8 = s.get(url, timeout=15).text
-    match_m3u8 = re.findall(r'\"hlsManifestUrl\":\"(.*?)\"\}', get_m3u8)
-    decode_m3u8 = unquote(''.join(match_m3u8))
-    if '.m3u8' not in decode_m3u8:
+    get = s.get(url, timeout=15).text
+    match = re.findall(r'\"hlsManifestUrl\":\"(.*?)\"\}', get)
+    decode = unquote(''.join(match))
+    if '.m3u8' not in decode:
         return nosignal()
     else:
-        get = requests.get(decode_m3u8).text
-        if '403 (Forbidden)' in get:
+        m3u8_get = requests.get(decode).text
+        if '403 (Forbidden)' in m3u8_get:
             return nosignal()
         else:
-            return get
+            return m3u8_get
 
 s = requests.Session()
 result = grab(str(sys.argv[1]))
