@@ -28,10 +28,12 @@ def grab(url):
         return nosignal()
     else:
         m3u8_get = requests.get(decode).text
-        if '403 ' in m3u8_get:
-            return nosignal()
-        else:
-            return m3u8_get
+        for code in ['403 ', '404 ', '500 ']:
+            if code in m3u8_get:
+                return nosignal()
+            else:
+                break
+        return m3u8_get
 
 s = requests.Session()
 result = grab(str(sys.argv[1]))
