@@ -11,10 +11,7 @@ import os, re, sys
 import xml.dom.minidom as dom
 import lxml.etree as et
 
-source = ''.join(sys.argv[2])
-result = ''.join(sys.argv[1])
-caption_name = ''.join(sys.argv[3])
-caption_url = ''.join(sys.argv[4])
+exec, result, source, caption_name, caption_url = sys.argv
 tmpdir = os.sep.join(["..", "tmp"])
 
 def merge(tree, tagname):

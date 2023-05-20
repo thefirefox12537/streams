@@ -5,7 +5,7 @@ name: Generate EPG
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: '00 14 * * *'
+    - cron: '00 13 * * *'
 
   pull_request:
     branches:
@@ -31,27 +31,38 @@ jobs:
       #  run: echo testing!
 
       # Runs a set of commands using the runners shell 
-      - name: config
+      - name: git config
         run: |
           git pull
           git config --global user.email "reinmclaren33@gmail.com"
           git config --global user.name "Faizal Hamzah"
 
+      - name: token
+        env: 
+          AUTH: ${{ secrets.AUTH }}
+
       - name: update streams
         run: |
+          cd epg
           pwd
-          cd epg/scripts
           pip install lxml
-          bash gen-epg.sh
-          python index.py ../guide.xml local.txt "12537.stream.ip.tv Playlist" https://12537-stream-ip-tv.xyz
-          cd ../..
+          echo "Generating EPG for main playlist..."
+          python3 scripts/index.py guide.xml scripts/general.txt "12537.stream.ip.tv Playlist" https://12537-stream-ip-tv.xyz
+          tar -czvf guide.xml.gz guide.xml
+          rm guide.xml
+          echo "Generating EPG for local playlist..."
+          python3 scripts/index.py guide.xml scripts/local.txt "12537.stream.ip.tv Playlist" https://12537-stream-ip-tv.xyz
+          cd ..
 
       - name: git add
         run: |
           git add -A
           ls -la
+          git commit -m "Generate EPG every 1.00pm"
 
-      - name: commit & push
-        run: |
-          git commit -m "Generate EPG"
-          git push
+      - name: git commit
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force-push: true
