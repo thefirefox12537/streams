@@ -38,7 +38,7 @@ jobs:
           git config --global user.name "Faizal Hamzah"
 
       - name: token
-        env: 
+        env:
           AUTH: ${{ secrets.AUTH }}
 
       - name: update streams
