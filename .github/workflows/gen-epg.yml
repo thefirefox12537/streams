@@ -2,7 +2,6 @@ name: Generate EPG
 on:
   schedule:
     - cron: '00 13 * * *'
-    - timezone: 'Asia/Jakarta'
   pull_request:
     branches:
       - master
@@ -14,6 +13,25 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v2
+      - name: Check timezone
+        id: check_tz
+        env:
+          TRIGGER: ${{ github.event_name }}
+        run: |
+          echo "Trigger: ${TRIGGER}"
+          if [[ ${TRIGGER} == 'schedule' ]]; then
+            echo "Checking daylight saving time"
+            if [ $(date --date='TZ="Asia/Jakarta" now' +%H) -eq '13' ]; then
+              echo 'Time to run!'
+              echo "run=True" >> "$GITHUB_OUTPUT"
+            else
+              echo "It's not 13:00 local time in Asia/Jakarta. Waiting for next execution..."
+              echo "run=False" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo 'Trigger is not cron, ommiting time check!'
+            echo "run=True" >> "$GITHUB_OUTPUT"
+          fi
       - name: config
         run: |
           git pull
