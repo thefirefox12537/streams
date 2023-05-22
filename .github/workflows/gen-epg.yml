@@ -33,6 +33,5 @@ jobs:
       - name: commit
         run: |
           git add -A
-          ls -la
           git commit -m "Generate EPG every 1.00pm"
           git push

@@ -40,12 +40,12 @@ jobs:
           python3 api/yt/index.py "https://www.youtube.com/live/d59850Gob28" > netdot_yt.m3u8
           sleep 3
           python3 api/yt/index.py "https://www.youtube.com/c/tvonenews/live" > tiviwan_yt.m3u8
-          sleep 3
-          python3 api/prodeo/index.py 7464 > ajewa.m3u8
-          sleep 3
-          python3 api/prodeo/index.py 7052 > hiphiphore.m3u8
-          sleep 3
-          python3 api/prodeo/index.py 7946 > tempo.m3u8
+          #sleep 3
+          #python3 api/prodeo/index.py 7464 > ajewa.m3u8
+          #sleep 3
+          #python3 api/prodeo/index.py 7052 > hiphiphore.m3u8
+          #sleep 3
+          #python3 api/prodeo/index.py 7946 > tempo.m3u8
       - name: commit
         run: |
           git add -A
