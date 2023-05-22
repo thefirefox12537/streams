@@ -33,10 +33,11 @@ jobs:
             echo "run=True" >> "$GITHUB_OUTPUT"
           fi
 
-  my-job:
+  build:
     runs-on: ubuntu-latest
     if: needs.check-run.outputs.run == 'True'
     needs: check-run
+    steps:
       - name: checkout repo
         uses: actions/checkout@v2
       - name: config
