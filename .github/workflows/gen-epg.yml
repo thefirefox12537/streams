@@ -1,7 +1,7 @@
 name: Generate EPG
 on:
   schedule:
-    - cron: '00 13 * * *'
+    - cron: '00 06 * * *'
   pull_request:
     branches:
       - master
@@ -22,7 +22,7 @@ jobs:
           echo "Trigger: ${TRIGGER}"
           if [[ ${TRIGGER} == 'schedule' ]]; then
             echo "Checking daylight saving time"
-            if [ $(date --date='TZ="Asia/Jakarta" now' +%H) -eq '13' ]; then
+            if [ $(date --date='TZ="Asia/Jakarta" now' +%H) -eq '06' ]; then
               echo 'Time to run!'
               echo "run=True" >> "$GITHUB_OUTPUT"
             else
