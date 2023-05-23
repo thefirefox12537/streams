@@ -8,36 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  check-run:
-    runs-on: ubuntu-latest
-    outputs:
-      run: ${{ steps.check_local_time.outputs.run }}
-    steps:
-      - name: check timezone
-        id: check_tz
-        env:
-          TRIGGER: ${{ github.event_name }}
-        run: |
-          date
-          echo "Trigger: ${TRIGGER}"
-          if [[ ${TRIGGER} == 'schedule' ]]; then
-            echo "Checking daylight saving time"
-            if [ $(date --date='TZ="Asia/Jakarta" now' +%H) -eq '06' ]; then
-              echo 'Time to run!'
-              echo "run=True" >> "$GITHUB_OUTPUT"
-            else
-              echo "It's not 13:00 local time in Asia/Jakarta. Waiting for next execution..."
-              echo "run=False" >> "$GITHUB_OUTPUT"
-            fi
-          else
-            echo 'Trigger is not cron, ommiting time check!'
-            echo "run=True" >> "$GITHUB_OUTPUT"
-          fi
-
   build:
     runs-on: ubuntu-latest
-    if: needs.check-run.outputs.run == 'True'
-    needs: check-run
     steps:
       - name: checkout repo
         uses: actions/checkout@v2
