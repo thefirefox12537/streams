@@ -18,6 +18,7 @@ jobs:
         env:
           TRIGGER: ${{ github.event_name }}
         run: |
+          date
           echo "Trigger: ${TRIGGER}"
           if [[ ${TRIGGER} == 'schedule' ]]; then
             echo "Checking daylight saving time"
