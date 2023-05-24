@@ -22,7 +22,6 @@ jobs:
         run: |
           cd epg
           pwd
-          apt-get -y install zip
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
           python3 scripts/index.py guide.xml scripts/general.txt "12537.stream.ip.tv Playlist" "http://103.152.118.53:80"
