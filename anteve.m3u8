@@ -1,7 +1,4 @@
 #EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=931124,RESOLUTION=960x540
-http://edge.linknetott.swiftserve.com/channelgroup3/cg314production/ch7/02.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=434559,RESOLUTION=320x240
-http://edge.linknetott.swiftserve.com/channelgroup3/cg314production/ch7/01.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2310472,RESOLUTION=960x540
-http://edge.linknetott.swiftserve.com/channelgroup3/cg314production/ch7/03.m3u8
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
+https://link.zozotv.xyz:443/live/lifeku/lifeku/51.m3u8
