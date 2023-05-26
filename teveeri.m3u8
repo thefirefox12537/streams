@@ -1,4 +1,9 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
-http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=683195&extension=m3u8&play_token=Q6xrsX327Y
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=991124,RESOLUTION=960x540
+http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/02.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=122032,CODECS="mp4a.40.2"
+http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/04.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=494559,RESOLUTION=320x240
+http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/01.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2402472,RESOLUTION=960x540
+http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/03.m3u8
