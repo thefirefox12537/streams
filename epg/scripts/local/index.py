@@ -21,6 +21,12 @@ def merge(tree, tagname):
         root = et.parse(file).getroot()
         for child in root:
             if tagname in child.tag:
+                epgid = os.sep.join([os.path.dirname(source), os.path.basename(file) + ".txt"])
+                if os.path.exists(epgid):
+                    for read in open(epgid).readlines():
+                        removeline = read.strip()
+                        if rmeof.split(",")[0] == child.attrib["id"]:
+                            child.attrib["id"] = rmeof,split(",")[1]
                 tree.append(child)
 
 def main():
