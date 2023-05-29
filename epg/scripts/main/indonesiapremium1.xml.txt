@@ -1,5 +1,5 @@
 AJWA TV,AjwaTV.id
-Aljazeera,AlJazeeraEnglish.qa
+Aljazeera,AlJazeeraChannel.qa
 ANTV,ANTV.id
 Bein 1,beINSports1Indonesia.id
 Bein 3,beINSports3Indonesia.id

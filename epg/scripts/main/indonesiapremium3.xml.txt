@@ -23,7 +23,7 @@ CGTN Documentary,CGTNDocumentary.cn
 Chinese Drama,ChineseDrama.hk
 Cinema World,CinemaWorld.my
 Citra Dangdut,CitraDangdut.id
-Citra Drama,,CitraDrama.id
+Citra Drama,CitraDrama.id
 CNBC Asia,CNBCAsia.sg
 CNBC Indonesia,CNBCIndonesia.id
 CNN Indonesia,CNNIndonesia.id

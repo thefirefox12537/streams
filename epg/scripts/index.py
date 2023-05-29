@@ -24,7 +24,7 @@ def merge(tree, tagname, attrib):
                 epgid = os.sep.join([os.path.dirname(source), os.path.basename(file) + ".txt"])
                 if os.path.exists(epgid):
                     for read in open(epgid).readlines():
-                        removeline = read.strip().split(",")
+                        rmeof = read.strip().split(",")
                         if child.attrib[attrib] == rmeof[0]:
                             child.attrib[attrib] = rmeof[1]
                 tree.append(child)
