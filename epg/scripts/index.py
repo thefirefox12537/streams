@@ -14,7 +14,7 @@ import lxml.etree as et
 exec, result, source, caption_name, caption_url = sys.argv
 tmpdir = os.sep.join(["..", "tmp"])
 
-def merge(tree, tagname):
+def merge(tree, tagname, attrib):
     print(f"Merging {tagname}...")
     files =  glob.glob(os.sep.join([tmpdir, "*.xml"]))
     for file in files:
@@ -24,9 +24,9 @@ def merge(tree, tagname):
                 epgid = os.sep.join([os.path.dirname(source), os.path.basename(file) + ".txt"])
                 if os.path.exists(epgid):
                     for read in open(epgid).readlines():
-                        removeline = read.strip()
-                        if rmeof.split(",")[0] == child.attrib["id"]:
-                            child.attrib["id"] = rmeof,split(",")[1]
+                        removeline = read.strip().split(",")
+                        if child.attrib[attrib] == rmeof[0]:
+                            child.attrib[attrib] = rmeof[1]
                 tree.append(child)
 
 def main():
@@ -58,8 +58,8 @@ def main():
     comment["generator-info-url"] = caption_url
 
     tree = et.Element("tv", comment)
-    merge(tree, tagname="channel")
-    merge(tree, tagname="programme")
+    merge(tree, tagname="channel", attrib="id")
+    merge(tree, tagname="programme", attrib="channel")
 
     print("Parsing data...")
     tostring = et.tostring(tree, encoding="UTF-8", method="xml", xml_declaration=True)

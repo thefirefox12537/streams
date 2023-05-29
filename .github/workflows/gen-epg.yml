@@ -24,10 +24,10 @@ jobs:
           pwd
           python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
-          python3 scripts/main/index.py guide.xml scripts/main/main.txt "12537.stream.ip.tv Playlist" "http://103.152.118.53:80"
+          python3 scripts/index.py guide.xml scripts/main/main.txt "12537.stream.ip.tv Playlist" "http://103.152.118.53:80"
           zip -m guide.xml.zip guide.xml
           echo "Generating EPG for local playlist..."
-          python3 scripts/local/index.py guide.xml scripts/local/local.txt "12537.stream.ip.tv Playlist" "http://103.152.118.53:80"
+          python3 scripts/index.py guide.xml scripts/local/local.txt "12537.stream.ip.tv Playlist" "http://103.152.118.53:80"
           cd ..
       - name: commit
         run: |
