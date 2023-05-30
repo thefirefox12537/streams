@@ -60,7 +60,7 @@ Kids TV - [Channel 46],KidsTV.id
 KIX - [Channel 161],KIX.hk
 Kompas TV - [Channel 106],KompasTV.id
 LIFE - [Channel 91],Life.id
-Lifestyle &amp; Fashion - [Channel 90],LifestyleFashion.id
+Lifestyle & Fashion - [Channel 90],LifestyleFashion.id
 Lifetime - [Channel 167],LifetimeAsia.us
 Metro TV - [Channel 107],MetroTV.id
 Miao Mi - [Channel 38],MiaoMi.hk

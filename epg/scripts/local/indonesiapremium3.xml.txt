@@ -37,7 +37,7 @@ Dreamworks,DreamWorksChannelAsia.us
 Dunia anak,DuniaAnak.id
 Dunia Lain,DuniaLain.id
 DW (English),DWEnglish.id
-Eat &amp; Go,EatNGo.id
+Eat & Go,EatNGo.id
 EBC Asia,EBCAsia.tw
 Euronews,EuronewsEnglish.fr
 FashionTV,FashionTVAsia.fr
