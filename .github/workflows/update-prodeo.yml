@@ -1,0 +1,34 @@
+name: Update Other streams
+on:
+  schedule:
+    - cron: '00 00/2 * * *'
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+      - name: config
+        run: |
+          git pull
+          git config --global user.email "reinmclaren33@gmail.com"
+          git config --global user.name "Faizal Hamzah"
+      - name: update streams
+        run: |
+          pwd
+          mkdir tmp
+          wget -U 'okhttp/1.2' -P tmp http://103.152.118.53:80/api/pidio/index.py > /dev/null 2>&1
+          python3 tmp/index.py 7464 > ajewa.m3u8
+          python3 tmp/index.py 7052 > hiphiphore.m3u8
+          python3 tmp/index.py 7946 > tempo.m3u8
+          rm -rf tmp
+      - name: commit
+        run: |
+          git add -A
+          git commit -m "Update streams"
+          git push
