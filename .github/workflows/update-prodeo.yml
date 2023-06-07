@@ -22,7 +22,7 @@ jobs:
         run: |
           pwd
           mkdir tmp
-          wget -U 'okhttp/1.2' -P tmp http://103.152.118.53:80/api/pidio/index.py > /dev/null 2>&1
+          wget -U 'okhttp/1.2' -qP tmp http://103.152.118.53:80/api/pidio/index.py
           python3 tmp/index.py 7464 > ajewa.m3u8
           python3 tmp/index.py 7052 > hiphiphore.m3u8
           python3 tmp/index.py 7946 > tempo.m3u8
