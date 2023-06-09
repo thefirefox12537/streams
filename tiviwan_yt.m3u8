@@ -1,8 +1,11 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,AVERAGE-BANDWIDTH=200000,BANDWIDTH=243053,RESOLUTION=640x480,NAME="NTSC/SECAM/PAL",FRAME-RATE=25.000,CODECS="avc1.64001e,mp4a.40.2",CLOSED-CAPTIONS=NONE
-http://thefirefox12537.github.io/streams/nosignal/01.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,AVERAGE-BANDWIDTH=1000000,BANDWIDTH=1294369,RESOLUTION=1920x1080,NAME="FHD",FRAME-RATE=25.000,CODECS="avc1.640028,mp4a.40.2",CLOSED-CAPTIONS=NONE
-http://thefirefox12537.github.io/streams/nosignal/02.m3u8
-#EXT-X-ENDLIST
-
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 403 (Forbidden)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>403.</b> <ins>That’s an error.</ins>
+  <p>Your client does not have permission to get URL <code>/api/manifest/hls_variant/expire/1686299022/ei/Lo2CZOa4H82PkwbhnZuIAQ/ip/13.73.36.246/id/yNKvkPJl-tg.3/source/yt_live_broadcast/requiressl/yes/tx/24472453/txs/24472450,24472451,24472452,24472453,24472454,24472455,24472456/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/qEK7B63brUcTSgdxuW5fS8LRawypsD9QW39lRjRc0Q/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246,51000024/beids/24350017/dover/11/itag/0/playlist_type/DVR/sparams/expire,ei,ip,id,source,requiressl,tx,txs,hfr,playlist_duration,manifest_duration,maudio,spc,vprv,go,itag,playlist_type/sig/AOq0QJ8wRQIgYcGU6Ng5cLmK4WZDcP45Mq41QRz0jmhTlvd9aZnWqKACIQCXB7vfnROAFM9pBYuQ_fcZsmx1tcihUTGRQPxq4VXT6g==/file/index.m3u8%22,%22probeUrl%22:%22https://r5---sn-nx5s7nee.googlevideo.com/videogoodput?id=o-AOyVp1jTeNpmF7jv2eLPITCFnORgDEO5nTNwQsKBEm_s%5Cu0026source=goodput%5Cu0026range=0-4999%5Cu0026expire=1686281022%5Cu0026ip=13.73.36.246%5Cu0026ms=pm%5Cu0026mm=35%5Cu0026pl=24%5Cu0026nh=IgpwZjA3LnNlYTA5KgwxMDQuNDQuNTcuMjE%5Cu0026sparams=id,source,range,expire,ip,ms,mm,pl,nh%5Cu0026signature=753BF69AD52E8B6C046E77CBB7BBE6D563FC2A40.80CF59D3D6F176B87DE95CEFF73492931BF2AD1D%5Cu0026key=cms1</code> from this server.  <ins>That’s all we know.</ins>
