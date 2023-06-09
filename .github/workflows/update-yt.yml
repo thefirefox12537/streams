@@ -23,25 +23,25 @@ jobs:
           pwd
           mkdir tmp
           wget -U okhttp/1.2 -qP tmp http://103.152.118.53:80/api/yt/index.py
-          python3 tmp/index.py "https://www.youtube.com/c/aquariusmusikindo/live" > akuarius.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/c/aquariusmusikindo/live" akuarius.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/watch?v=0Kln8aj0v3E" > beenchenel.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/watch?v=0Kln8aj0v3E" beenchenel.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/c/musicastudios/live" > musika.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/c/musicastudios/live" musika.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/watch?v=NYoNORroe3o" > nagaswaradensdut.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/watch?v=NYoNORroe3o" nagaswaradensdut.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/watch?v=Gvfr_OoTp1E" > nagaswarakoplo.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/watch?v=Gvfr_OoTp1E" nagaswarakoplo.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/watch?v=Is03gZsBeq0" > nagaswarapop.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/watch?v=Is03gZsBeq0" nagaswarapop.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/watch?v=Qk-QnFxIZ88" > nagaswarareligi.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/watch?v=Qk-QnFxIZ88" nagaswarareligi.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/c/kompastv/live" > kompasteve_yt.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/c/kompastv/live" kompasteve_yt.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/live/d59850Gob28" > netdot_yt.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/live/d59850Gob28" netdot_yt.m3u8
           sleep 3
-          python3 tmp/index.py "https://www.youtube.com/c/tvonenews/live" > tiviwan_yt.m3u8
+          python3 tmp/index.py --url "https://www.youtube.com/c/tvonenews/live" tiviwan_yt.m3u8
           rm -rf tmp
       - name: commit
         run: |
