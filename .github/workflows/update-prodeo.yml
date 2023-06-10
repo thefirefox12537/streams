@@ -26,6 +26,7 @@ jobs:
           python3 tmp/index.py --channel-code 7464 --channel-name "ajwa-tv" ajewa.m3u8
           python3 tmp/index.py --channel-code 7052 --channel-name "hip-hip-horee" hiphiphore.m3u8
           python3 tmp/index.py --channel-code 7946 --channel-name "tv-tempo" tempo.m3u8
+          python3 tmp/index.py --channel-code 6898 --channel-name "u-channel" yucenel.m3u8
           rm -rf tmp
       - name: commit
         run: |
