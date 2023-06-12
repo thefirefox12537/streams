@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
-https://stream.astradamy.com/RI@_src.m3u8
+http://104.193.225.145:8080/RI@_l/RI@.m3u8?hls_ctx=e9537xv6
