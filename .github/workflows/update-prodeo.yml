@@ -28,6 +28,9 @@ jobs:
           python3 tmp/index.py --channel-code 7946 --channel-name "tv-tempo" tempo.m3u8
           python3 tmp/index.py --channel-code 6898 --channel-name "u-channel" yucenel.m3u8
           python3 tmp/index.py --channel-code 8237 --channel-name "mentari-tv" mentariteve.m3u8
+          python3 tmp/index.py --channel-code 205 --channel-name "indosiar" indosiar_2.m3u8
+          python3 tmp/index.py --channel-code 204 --channel-name "sctv" esceteve_2.m3u8
+          python3 tmp/index.py --channel-code 206 --channel-name "moji" moji_2.m3u8
           rm -rf tmp
       - name: commit
         run: |
