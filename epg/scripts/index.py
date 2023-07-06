@@ -63,8 +63,8 @@ def main():
 
     print("Parsing data...")
     tostring = et.tostring(tree, encoding="UTF-8", method="xml", xml_declaration=True)
-    parsestring = dom.parseString(tostring).toprettyxml(encoding="UTF-8")
-    output = re.sub(b'\n\n', b'', parsestring)
+    parsestring = dom.parseString(tostring).toprettyxml(indent='', encoding="UTF-8")
+    output = re.sub(b'\n', b'', parsestring)
 
     print("Creating file...")
     with open(result, mode="wb") as epg:
