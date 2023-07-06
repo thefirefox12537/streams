@@ -130,6 +130,9 @@ https://www.bevy.be/bevyfiles/turkeypremium2.xml
 uae.xml
 https://www.bevy.be/bevyfiles/uae.xml
 
+uaepremium1.xml
+https://www.bevy.be/bevyfiles/uaepremium1.xml
+
 unitedkingdom.xml
 https://www.bevy.be/bevyfiles/unitedkingdom.xml
 
