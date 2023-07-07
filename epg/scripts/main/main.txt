@@ -97,6 +97,9 @@ https://www.bevy.be/bevyfiles/romania.xml
 russia.xml
 https://www.bevy.be/bevyfiles/russia.xml
 
+russiapremium1.xml
+https://www.bevy.be/bevyfiles/russiapremium1.xml
+
 serbia.xml
 https://www.bevy.be/bevyfiles/serbia.xml
 
@@ -135,6 +138,9 @@ https://www.bevy.be/bevyfiles/uaepremium1.xml
 
 unitedkingdom.xml
 https://www.bevy.be/bevyfiles/unitedkingdom.xml
+
+unitedkingdompremium1.xml
+https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
 
 unitedstates.xml
 https://www.bevy.be/bevyfiles/unitedstates.xml
