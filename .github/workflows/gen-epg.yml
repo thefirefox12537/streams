@@ -18,15 +18,13 @@ jobs:
           git pull
           git config --global user.email "reinmclaren33@gmail.com"
           git config --global user.name "Faizal Hamzah"
-      - name: require
-        run: |
-          python3 -m pip install lxml
       - name: generate
         run: |
           cd epg
           pwd
           [ ! -d global ] && mkdir -v global/
           [ ! -d local ] && mkdir -v local/
+          python3 -m pip install lxml
           echo "Generating EPG for main playlist..."
           python3 scripts/index.py guide.xml scripts/main/main.txt "12537.stream.ip.tv Playlist" "http://103.152.118.53:80"
           gzip -9 guide.xml
