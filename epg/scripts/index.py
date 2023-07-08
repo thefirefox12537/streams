@@ -18,16 +18,19 @@ def merge(tree, tagname, attrib):
     print(f"Merging {tagname}...")
     files =  glob.glob(os.sep.join([tmpdir, "*.xml"]))
     for file in files:
-        root = et.parse(file).getroot()
-        for child in root:
-            if tagname in child.tag:
-                epgid = os.sep.join([os.path.dirname(source), os.path.basename(file) + ".txt"])
-                if os.path.exists(epgid):
-                    for read in open(epgid).readlines():
-                        rmeof = read.strip().split(",")
-                        if child.attrib[attrib] == rmeof[0]:
-                            child.attrib[attrib] = rmeof[1]
-                tree.append(child)
+        try:
+            root = et.parse(file).getroot()
+            for child in root:
+                if tagname in child.tag:
+                    epgid = os.sep.join([os.path.dirname(source), os.path.basename(file) + ".txt"])
+                    if os.path.exists(epgid):
+                        for read in open(epgid).readlines():
+                            rmeof = read.strip().split(",")
+                            if child.attrib[attrib] == rmeof[0]:
+                                child.attrib[attrib] = rmeof[1]
+                    tree.append(child)
+        except lxml.etree.XMLSyntaxError:
+            print('Skipping:', file)
 
 def main():
     files = []
