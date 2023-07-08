@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2000000
-http://104.193.225.145:8080/live/RI@/RI@.m3u8?hls_ctx=e9537xv6
+http://kuchini.site:8080/live/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/158347.m3u8
+#http://104.193.225.145:8080/live/RI@/RI@.m3u8?hls_ctx=e9537xv6
