@@ -29,7 +29,7 @@ def merge(tree, tagname, attrib):
                             if child.attrib[attrib] == rmeof[0]:
                                 child.attrib[attrib] = rmeof[1]
                     tree.append(child)
-        except lxml.etree.XMLSyntaxError:
+        except:
             print('Skipping:', file)
 
 def main():
