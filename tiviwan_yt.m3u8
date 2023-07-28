@@ -1,6 +1,11 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=243053,RESOLUTION=640x480,FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE
-http://12537-stream-ip-tv.xyz/play/nosignal/ntscpal_hls.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1294369,RESOLUTION=1920x1080,FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE
-http://12537-stream-ip-tv.xyz/play/nosignal/fhd_hls.m3u8
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 403 (Forbidden)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>403.</b> <ins>That’s an error.</ins>
+  <p>Your client does not have permission to get URL <code>/api/manifest/hls_variant/expire/1690578499/ei/49nDZM2-Kvyzlu8Pocum0Aw/ip/40.84.220.108/id/yNKvkPJl-tg.3/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/Ul2Sq6BVel5f43t1wzHOIxYi3cFAZgEjnyUJL2Hl4A/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246,24363391/beids/24350018/dover/11/itag/0/playlist_type/DVR/sparams/expire,ei,ip,id,source,requiressl,hfr,playlist_duration,manifest_duration,maudio,spc,vprv,go,itag,playlist_type/sig/AOq0QJ8wRQIgbj1tne1gYhUaVbZT6MOVd7dHwN-yu3IQajCii1cVyJwCIQDgHtbI-bmUbIzjd7Yu9HY1j2oz09lD52rR3C-ydE8QHA==/file/index.m3u8%22,%22probeUrl%22:%22https://r2---sn-p5qlsn7s.googlevideo.com/videogoodput?id=o-APFxx3DA6E1qURzlhvGdKyF8k39fhMWOeEZTeadUGWGl%5Cu0026source=goodput%5Cu0026range=0-4999%5Cu0026expire=1690560499%5Cu0026ip=40.84.220.108%5Cu0026ms=pm%5Cu0026mm=35%5Cu0026pl=24%5Cu0026nh=IgpwZjAyLmlhZDI2KgwxMDQuNDQuNi4xNzM%5Cu0026sparams=id,source,range,expire,ip,ms,mm,pl,nh%5Cu0026signature=1350EC8808D2B41513B507D5A3814C8FD7BFDE96.26F5016707B9A9D947C0B7F73097421FF3FCA1DA%5Cu0026key=cms1</code> from this server.  <ins>That’s all we know.</ins>
