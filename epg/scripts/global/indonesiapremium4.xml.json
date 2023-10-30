@@ -1,0 +1,327 @@
+[
+	{
+		"origin": "ABC Australia",
+		"channel_name": "ID: ABC Australia",
+		"channel_id": "ABCAustralia.au.id"
+	},
+	{
+		"origin": "Aljazeera",
+		"channel_name": "ID: Al-Jazeera Arabic",
+		"channel_id": "AlJazeera.qa.id"
+	},
+	{
+		"origin": "AlQuran Kareem",
+		"channel_name": "ID: Al-Qur'an Al-Kareem TV",
+		"channel_id": "AlQuranAlKareemTV.sa.id"
+	},
+	{
+		"origin": "Antara",
+		"channel_name": "ID: Antara TV",
+		"channel_id": "AntaraTV.id"
+	},
+	{
+		"origin": "ANTV",
+		"channel_name": "ID: ANTV",
+		"channel_id": "ANTV.id"
+	},
+	{
+		"origin": "Arirang",
+		"channel_name": "ID: Arirang TV",
+		"channel_id": "ArirangTV.kr.id"
+	},
+	{
+		"origin": "ATV",
+		"channel_name": "ID: ATV",
+		"channel_id": "ATV.id"
+	},
+	{
+		"origin": "AXN",
+		"channel_name": "ID: AXN",
+		"channel_id": "AXNIndonesia.sg.id"
+	},
+	{
+		"origin": "Bali TV",
+		"channel_name": "ID: Bali TV",
+		"channel_id": "BaliTV.id"
+	},
+	{
+		"origin": "BTV",
+		"channel_name": "ID: BTV",
+		"channel_id": "BTV.id"
+	},
+	{
+		"origin": "CCTV4",
+		"channel_name": "ID: CCTV-4",
+		"channel_id": "CCTV4Asia.cn.id"
+	},
+	{
+		"origin": "CGTN Documentary",
+		"channel_name": "ID: CGTN Documentary",
+		"channel_id": "CGTNDocumentary.cn.id"
+	},
+	{
+		"origin": "Chinese Drama",
+		"channel_name": "ID: Chinese Drama Channel",
+		"channel_id": "ChineseDramaChannel.hk.id"
+	},
+	{
+		"origin": "Citra Dangdut",
+		"channel_name": "ID: Citra Dangdut",
+		"channel_id": "CitraDangdut.id"
+	},
+	{
+		"origin": "Citra Drama",
+		"channel_name": "ID: Citra Drama",
+		"channel_id": "CitraDrama.id"
+	},
+	{
+		"origin": "Daai TV",
+		"channel_name": "ID: DAAITV",
+		"channel_id": "DAAITV.id"
+	},
+	{
+		"origin": "DW (English)",
+		"channel_name": "ID: DW English",
+		"channel_id": "DWEnglish.de.id"
+	},
+	{
+		"origin": "Euronews",
+		"channel_name": "ID: EuroNews English",
+		"channel_id": "EuroNewsEnglish.fr.id"
+	},
+	{
+		"origin": "FashionTV",
+		"channel_name": "ID: Fashion TV",
+		"channel_id": "FashionTV.fr.id"
+	},
+	{
+		"origin": "Flik",
+		"channel_name": "ID: Flik",
+		"channel_id": "Flik.id"
+	},
+	{
+		"origin": "France 24",
+		"channel_name": "ID: France 24 English",
+		"channel_id": "France24English.fr.id"
+	},
+	{
+		"origin": "GTV",
+		"channel_name": "ID: GTV",
+		"channel_id": "GTV.id"
+	},
+	{
+		"origin": "Horee",
+		"channel_name": "ID: Horee",
+		"channel_id": "Horee.id"
+	},
+	{
+		"origin": "Horizon Sports",
+		"channel_name": "ID: Horizon Sports",
+		"channel_id": "HorizonSports.us.id"
+	},
+	{
+		"origin": "IDX",
+		"channel_name": "ID: IDX Channel",
+		"channel_id": "IDXChannel.id"
+	},
+	{
+		"origin": "IndiKids",
+		"channel_name": "ID: IndiKids",
+		"channel_id": "Indikids.id"
+	},
+	{
+		"origin": "Indonesiana TV",
+		"channel_name": "ID: Indonesiana TV",
+		"channel_id": "IndonesianaTV.id"
+	},
+	{
+		"origin": "Indosiar",
+		"channel_name": "ID: Indosiar",
+		"channel_id": "Indosiar.id"
+	},
+	{
+		"origin": "iNews",
+		"channel_name": "ID: iNews",
+		"channel_id": "iNews.id"
+	},
+	{
+		"origin": "JakTV",
+		"channel_name": "ID: Jak TV",
+		"channel_id": "JakTV.id"
+	},
+	{
+		"origin": "JTV",
+		"channel_name": "ID: JTV",
+		"channel_id": "JTV.id"
+	},
+	{
+		"origin": "KBS World",
+		"channel_name": "ID: KBS World",
+		"channel_id": "KBSWorld.kr.id"
+	},
+	{
+		"origin": "Kompas TV",
+		"channel_name": "ID: Kompas TV",
+		"channel_id": "KompasTV.id"
+	},
+	{
+		"origin": "Kplus",
+		"channel_name": "ID: K+",
+		"channel_id": "KPlus.sg.id"
+	},
+	{
+		"origin": "Metro TV",
+		"channel_name": "ID: Metro TV",
+		"channel_id": "MetroTV.id"
+	},
+	{
+		"origin": "MNC",
+		"channel_name": "ID: MNCTV",
+		"channel_id": "MNCTV.id"
+	},
+	{
+		"origin": "MNC News",
+		"channel_name": "ID: SindoNews TV",
+		"channel_id": "SindoNews.id"
+	},
+	{
+		"origin": "MQTV",
+		"channel_name": "ID: MQTV",
+		"channel_id": "MQTV.id"
+	},
+	{
+		"origin": "MTATV",
+		"channel_name": "ID: MTATV",
+		"channel_id": "MTATV.id"
+	},
+	{
+		"origin": "Muhammadiyah TV",
+		"channel_name": "ID: tvMu",
+		"channel_id": "tvMu.id"
+	},
+	{
+		"origin": "MUI TV",
+		"channel_name": "ID: TV MUI",
+		"channel_id": "TVMUI.id"
+	},
+	{
+		"origin": "My Family",
+		"channel_name": "ID: My Family",
+		"channel_id": "MyFamily.id"
+	},
+	{
+		"origin": "MyKidz",
+		"channel_name": "ID: My Kidz",
+		"channel_id": "MyKids.id"
+	},
+	{
+		"origin": "Nat Geo",
+		"channel_name": "ID: National Geographic Channel",
+		"channel_id": "NationalGeographicIndonesia.us.id"
+	},
+	{
+		"origin": "Net.",
+		"channel_name": "ID: NET.",
+		"channel_id": "NetTV.id"
+	},
+	{
+		"origin": "News Asia",
+		"channel_name": "ID: CNA",
+		"channel_id": "CNAInternational.sg.id"
+	},
+	{
+		"origin": "Nusantara TV",
+		"channel_name": "ID: Nusantara TV",
+		"channel_id": "NusantaraTV.id"
+	},
+	{
+		"origin": "Prambors",
+		"channel_name": "ID: Prambors TV",
+		"channel_id": "PramborsTV.id"
+	},
+	{
+		"origin": "Rajawali TV",
+		"channel_name": "ID: RTV",
+		"channel_id": "RajawaliTV.id"
+	},
+	{
+		"origin": "RCTI",
+		"channel_name": "ID: RCTI",
+		"channel_id": "RCTI.id"
+	},
+	{
+		"origin": "Rodja TV",
+		"channel_name": "ID: Rodja TV",
+		"channel_id": "RodjaTV.id"
+	},
+	{
+		"origin": "RRI NET",
+		"channel_name": "ID: RRI NET",
+		"channel_id": "RRINet.id"
+	},
+	{
+		"origin": "SCTV",
+		"channel_name": "ID: SCTV",
+		"channel_id": "SCTV.id"
+	},
+	{
+		"origin": "SEA Today",
+		"channel_name": "ID: SEA Today",
+		"channel_id": "SEAToday.id"
+	},
+	{
+		"origin": "Tawaf TV",
+		"channel_name": "ID: Tawaf TV",
+		"channel_id": "TawafTV.id"
+	},
+	{
+		"origin": "Thrill",
+		"channel_name": "ID: Thrill",
+		"channel_id": "Thrill.hk.id"
+	},
+	{
+		"origin": "Trans7",
+		"channel_name": "ID: Trans 7",
+		"channel_id": "Trans7.id"
+	},
+	{
+		"origin": "TransTV",
+		"channel_name": "ID: Trans TV",
+		"channel_id": "TransTV.id"
+	},
+	{
+		"origin": "TRT World",
+		"channel_name": "ID: TRT World",
+		"channel_id": "TRTWorld.tr.id"
+	},
+	{
+		"origin": "TV One",
+		"channel_name": "ID: tvOne",
+		"channel_id": "tvOne.id"
+	},
+	{
+		"origin": "TV9 NU",
+		"channel_name": "ID: TV9 Nusantara",
+		"channel_id": "TV9Nusantara.id"
+	},
+	{
+		"origin": "TVRI",
+		"channel_name": "ID: TVRI Nasional",
+		"channel_id": "TVRINasional.id"
+	},
+	{
+		"origin": "UChannel",
+		"channel_name": "ID: U-Channel",
+		"channel_id": "UChannel.id"
+	},
+	{
+		"origin": "UseePrime",
+		"channel_name": "ID: UseePrime",
+		"channel_id": "UseePrime.id"
+	},
+	{
+		"origin": "ZBioskop",
+		"channel_name": "ID: Zee Bioskop",
+		"channel_id": "ZeeBioskop.in.id"
+	}
+]
