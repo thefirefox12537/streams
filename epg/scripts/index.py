@@ -3,6 +3,7 @@
 # EPG merger
 # Created by:  @thefirefox12537
 
+import gzip
 import glob
 import json
 import shutil
@@ -18,6 +19,7 @@ parser = argparse.ArgumentParser();
 parser.add_argument('--source', required=True, help='EPG source');
 parser.add_argument('-o', '--target-epgxml', required=True, help='EPG output');
 parser.add_argument('-t', '--norm-tmp', action='store_true', help='Do not remove temporary files');
+parser.add_argument('-z', '--compress', action='store_true', help='With GZip compressing');
 gen_info = parser.add_argument_group('(Optional) EPG Generated Information');
 gen_info.add_argument('--gen-name', help='Generated name');
 gen_info.add_argument('--gen-url', help='Generated URL');
@@ -91,9 +93,14 @@ if __name__ == '__main__':
   output = re.sub(b'\n\n', b'', parsestring);
 
   print('Creating file...');
-  with open(args.target_epgxml, mode='wb') as epg:
-    epg.write(output);
-    epg.close();
+  if args.compress:
+    with gzip.open(f'{args.target_epgxml}.gz', mode='wb') as epg:
+      epg.write(output);
+      epg.close();
+  else:
+    with open(args.target_epgxml, mode='wb') as epg:
+      epg.write(output);
+      epg.close();
 
   if not args.norm_tmp:
     print('Removing temporary files...');
