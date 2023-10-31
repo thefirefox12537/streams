@@ -280,7 +280,7 @@
 		"channel_id": "iNews.id"
 	},
 	{
-		"origin": "Infotaiment - [Channel 96].id",
+		"origin": "Celebrities TV - [Channel 96].id",
 		"channel_name": "ID: Celebrities TV",
 		"channel_id": "CelebritiesTV.id"
 	},
@@ -310,7 +310,7 @@
 		"channel_id": "Life.id"
 	},
 	{
-		"origin": "Lifestyle & Fashion - [Channel 90].id",
+		"origin": "Okezone TV - [Channel 90].id",
 		"channel_name": "ID: Okezone",
 		"channel_id": "Okezone.id"
 	},
@@ -330,37 +330,47 @@
 		"channel_id": "MiaoMi.hk.id"
 	},
 	{
-		"origin": "MNC News - [Channel 84].id",
+		"origin": "Sindo News TV - [Channel 84].id",
 		"channel_name": "ID: SindoNews TV",
 		"channel_id": "SindoNews.id"
 	},
 	{
-		"origin": "MNC News HD - [Channel 434].id",
+		"origin": "Sindo News TV HD - [Channel 434].id",
 		"channel_name": "ID: SindoNews TV",
 		"channel_id": "SindoNews.id"
 	},
 	{
-		"origin": "MNC Sports - [Channel 102].id",
+		"origin": "Sportstars - [Channel 102].id",
 		"channel_name": "ID: SportStars",
 		"channel_id": "SportStars.id"
 	},
 	{
-		"origin": "MNC Sports 2 - [Channel 98].id",
+		"origin": "Sportstars 2 - [Channel 98].id",
 		"channel_name": "ID: SportStars 2",
 		"channel_id": "SportStars2.id"
 	},
 	{
-		"origin": "MNC Sports 2 HD - [Channel 422].id",
+		"origin": "Sportstars 2 HD - [Channel 422].id",
 		"channel_name": "ID: SportStars 2",
 		"channel_id": "SportStars2.id"
 	},
 	{
-		"origin": "MNC Sports 3 - [Channel 99].id",
+		"origin": "Sportstars 3 - [Channel 99].id",
 		"channel_name": "ID: SportStars 3",
 		"channel_id": "SportStars3.id"
 	},
 	{
-		"origin": "MNC Sports HD - [Channel 421].id",
+		"origin": "Sportstars 4 - [Channel 88].id",
+		"channel_name": "ID: SportStars 4",
+		"channel_id": "SportStars4.id"
+	},
+	{
+		"origin": "Sportstars 4 HD - [Channel 424].id",
+		"channel_name": "ID: SportStars 4",
+		"channel_id": "SportStars4.id"
+	},
+	{
+		"origin": "Sportstars HD - [Channel 421].id",
 		"channel_name": "ID: SportStars",
 		"channel_id": "SportStars.id"
 	},
