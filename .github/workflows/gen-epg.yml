@@ -30,7 +30,7 @@ jobs:
           [ ! -d local ] && mkdir -v local/
           python3 -m pip install lxml pgzip requests
           echo "Generating EPG..."
-          status=$(python3 scripts/index.py -o guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="https://libretv.my.id/" --compress > log.txt 2>&1; echo $?)
+          status=$(python3 -u scripts/index.py -o guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="https://libretv.my.id/" --compress > log.txt 2>&1; echo $?)
           cat log.txt
           echo ::set-output name=status::$status
           rm log.txt
