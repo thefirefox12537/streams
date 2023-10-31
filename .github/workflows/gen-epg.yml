@@ -28,7 +28,7 @@ jobs:
           pwd
           [ ! -d global ] && mkdir -v global/
           [ ! -d local ] && mkdir -v local/
-          python3 -m pip install lxml pgzip
+          python3 -m pip install lxml pgzip requests
           echo "Generating EPG..."
           status=$(python3 scripts/index.py -o guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="https://libretv.my.id/" --compress > log.txt 2>&1; echo $?)
           cat log.txt
