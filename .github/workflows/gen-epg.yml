@@ -13,6 +13,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
       - name: config
         run: |
           git pull
@@ -26,7 +30,10 @@ jobs:
           [ ! -d local ] && mkdir -v local/
           python3 -m pip install lxml pgzip
           echo "Generating EPG..."
-          python3 scripts/index.py -o guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="https://libretv.my.id/" --compress
+          status=$(python3 scripts/index.py -o guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="https://libretv.my.id/" --compress > log.txt 2>&1; echo $?)
+          cat log.txt
+          echo ::set-output name=status::$status
+          rm log.txt
           mv -v guide.xml.gz global/
           cd ..
       - name: commit
