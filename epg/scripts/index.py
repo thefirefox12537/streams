@@ -5,9 +5,10 @@
 
 import glob
 import json
-import gzip
+import pgzip
 import shutil
 import requests
+import logging
 import threading
 import platform, os, re, sys
 import xml.dom.minidom as dom
