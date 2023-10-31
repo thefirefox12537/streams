@@ -3,9 +3,9 @@
 # EPG merger
 # Created by:  @thefirefox12537
 
-import gzip
 import glob
 import json
+import gzip
 import shutil
 import requests
 import threading
@@ -94,7 +94,7 @@ if __name__ == '__main__':
   output = re.sub(b'\n\n', b'', parsestring);
 
   print('Creating file...');
-  with gzip.open(epg_target, mode='wb') if args.compress \
+  with pgzip.open(epg_target, mode='wb', thread=0, blocksize=2*10**8) if args.compress \
   else open(epg_target, mode='wb') as epg:
     epg.write(output);
     epg.close();
