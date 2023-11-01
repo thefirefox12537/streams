@@ -11,7 +11,6 @@ import requests
 import logging
 import threading
 import platform, os, re, sys
-import xml.dom.minidom as dom
 import lxml.etree as et
 
 import argparse
@@ -53,7 +52,7 @@ def merge(tree, tagname, attrib):
                   found.text = read['channel_name'];
           tree.append(child);
     except:
-      print('Skipping:', file);
+      print('Skipping merge:', file);
 
 if __name__ == '__main__':
   files = [];
@@ -78,6 +77,7 @@ if __name__ == '__main__':
       try:
         print(f'Downloading {name}...');
         get = requests.get(url, allow_redirects=True);
+        get.raise_for_status();
         open(epgxml, mode='wb').write(get.content);
       except:
         print('Skipping download:', name);
@@ -92,12 +92,11 @@ if __name__ == '__main__':
   merge(tree, tagname='programme', attrib='channel');
 
   print('Parsing data...');
-  tostring = b'<?xml version="1.0" ?>\n' + et.tostring(tree, encoding='UTF-8', method='xml', pretty_print=True);
-  output = re.sub(b'\n\n', b'', tostring);
-  
+  tostring = b'<?xml version="1.0" ?>' + et.tostring(tree, encoding='UTF-8', method='xml');
+
   print('Creating file...');
   with epg_open(epg_target, **epg_opt) as epg:
-    epg.write(output);
+    epg.write(tostring);
     epg.close();
 
   if not args.norm_tmp:
