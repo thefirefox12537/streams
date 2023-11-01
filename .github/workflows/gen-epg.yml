@@ -29,8 +29,7 @@ jobs:
           [ ! -d global ] && mkdir -v global/
           python3 -m pip install lxml pgzip requests
           echo "Generating EPG..."
-          python3 -uv scripts/index.py -o guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="https://libretv.my.id/"
-          gzip -9 guide.xml
+          python3 -u scripts/index.py -zo guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="libretv.my.id/"
           mv -v guide.xml.gz global/
           cd ..
       - name: commit
