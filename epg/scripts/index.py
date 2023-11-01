@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
   with open(args.source, mode='r') as epgsrc:
     for text in re.split(r'[\r\n]+', epgsrc.read()):
-      if re.findall(r'^http[^\s]+.xml', text):
+      if re.findall(r'^https?://[^\s]+.xml', text):
         urls.append(text);
       elif not re.findall(r'^$', text):
         files.append(text);
@@ -75,9 +75,9 @@ if __name__ == '__main__':
     epgxml = os.sep.join([tmpdir, name]);
     if not os.path.exists(epgxml):
       try:
-        print(f'Downloading {name}...');
         get = requests.get(url, allow_redirects=True);
         get.raise_for_status();
+        print(f'Downloading {name}...');
         open(epgxml, mode='wb').write(get.content);
       except:
         print('Skipping download:', name);
@@ -106,6 +106,9 @@ if __name__ == '__main__':
     else:
       for name in files:
         epgxml = os.sep.join([tmpdir, name]);
-        os.remove(epgxml);
+        try:
+          os.remove(epgxml);
+        except FileNotFoundError:
+          pass;
 
   sys.exit();
