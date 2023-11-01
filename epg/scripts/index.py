@@ -29,8 +29,8 @@ args = parser.parse_args();
 tmpdir = os.environ['TEMP'] if platform.system() == 'Windows' else ('{}' if os.path.isdir('{}') else '/var{}').format('/tmp');
 tmpdir = tmpdir if os.path.isdir(tmpdir) else os.sep.join(['..', 'tmp']);
 epg_target = args.target_epgxml + ('.gz' if args.compress else '');
-open_file = pgzip.open if args.compress else open;
-opts = {'mode': 'wb', 'thread': 0, 'blocksize': 2*10**8} if args.compress else {'mode': 'wb'};
+epg_open = pgzip.open if args.compress else open;
+epg_opt = {'mode': 'wb', 'thread': 0, 'blocksize': 2*10**8} if args.compress else {'mode': 'wb'};
 
 def merge(tree, tagname, attrib):
   print(f'Merging {tagname}...');
@@ -93,13 +93,12 @@ if __name__ == '__main__':
 
   print('Parsing data...');
   tostring = et.tostring(tree, encoding='UTF-8', method='xml', xml_declaration=True);
-  parsestring = dom.parseString(tostring).toprettyxml(indent='', encoding='UTF-8');
-  output = re.sub(b'\n\n', b'', parsestring);
-
-  print('Creating file...');
-  with open_file(epg_target, **opts) as epg:
-    epg.write(output);
-    epg.close();
+  #parsestring = dom.parseString(tostring).toprettyxml(indent='', encoding='UTF-8');
+  
+  #print('Creating file...');
+  #with epg_open(epg_target, **epg_opt) as epg:
+    #epg.write(re.sub(b'\n\n', b'', parsestring));
+    #epg.close();
 
   if not args.norm_tmp:
     print('Removing temporary files...');
