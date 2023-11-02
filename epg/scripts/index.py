@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
   print('Creating file...');
   with epg_open(epg_target, **epg_opt) as epg:
-    epg.write(tostring);
+    epg.write(re.sub(r'\n', r'', tostring));
     epg.close();
 
   if not args.norm_tmp:
@@ -106,9 +106,7 @@ if __name__ == '__main__':
     else:
       for name in files:
         epgxml = os.sep.join([tmpdir, name]);
-        try:
+        if os.path.exists(epgxml):
           os.remove(epgxml);
-        except FileNotFoundError:
-          pass;
 
   sys.exit();
