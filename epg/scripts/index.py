@@ -92,11 +92,13 @@ if __name__ == '__main__':
   merge(tree, tagname='programme', attrib='channel');
 
   print('Parsing data...');
-  tostring = b'<?xml version="1.0" ?>' + et.tostring(tree, encoding='UTF-8', method='xml');
+  et.indent(tree, space='');
+  tostring = b'<?xml version="1.0" ?>' + et.tostring(tree, encoding='UTF-8', method='xml', pretty_print=True);
+  output = re.sub(b'\n\n', b'', tostring);
 
   print('Creating file...');
   with epg_open(epg_target, **epg_opt) as epg:
-    epg.write(re.sub(b'\n', b'', tostring));
+    epg.write(output);
     epg.close();
 
   if not args.norm_tmp:
