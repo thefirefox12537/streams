@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
   print('Creating file...');
   with epg_open(epg_target, **epg_opt) as epg:
-    epg.write(re.sub(r'\n', r'', tostring));
+    epg.write(re.sub(b'\n', b'', tostring));
     epg.close();
 
   if not args.norm_tmp:
