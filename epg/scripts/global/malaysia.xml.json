@@ -1,0 +1,687 @@
+[
+	{
+		"origin": "8TV.my",
+		"channel_name": "MY: 8TV",
+		"channel_id": "8TV.my"
+	},
+	{
+		"origin": "AdithyaTV.in",
+		"channel_name": "MY: Adithya TV",
+		"channel_id": "AdithyaTV.in.my"
+	},
+	{
+		"origin": "AlJazeeraEnglish.qa",
+		"channel_name": "MY: Al-Jazeera English",
+		"channel_id": "AlJazeeraEnglish.qa.my"
+	},
+	{
+		"origin": "AnimalPlanetMalaysia.my",
+		"channel_name": "MY: Animal Planet",
+		"channel_id": "AnimalPlanetMalaysia.sg.my"
+	},
+	{
+		"origin": "AsianFoodNetwork.sg",
+		"channel_name": "MY: Asian Food Network",
+		"channel_id": "AsianFoodNetwork.sg.my"
+	},
+	{
+		"origin": "AstroAEC.my",
+		"channel_name": "MY: Astro AEC",
+		"channel_id": "AstroAEC.my"
+	},
+	{
+		"origin": "AstroAOD311.my",
+		"channel_name": "MY: Astro AOD [Channel 311]",
+		"channel_id": "AstroAOD311.my"
+	},
+	{
+		"origin": "AstroAOD352.my",
+		"channel_name": "MY: Astro AOD [Channel 352]",
+		"channel_id": "AstroAOD352.my"
+	},
+	{
+		"origin": "AstroAOD353.my",
+		"channel_name": "MY: Astro AOD [Channel 353]",
+		"channel_id": "AstroAOD353.my"
+	},
+	{
+		"origin": "AstroAOD354.my",
+		"channel_name": "MY: Astro AOD [Channel 354]",
+		"channel_id": "AstroAOD354.my"
+	},
+	{
+		"origin": "AstroAOD355.my",
+		"channel_name": "MY: Astro AOD [Channel 355]",
+		"channel_id": "AstroAOD355.my"
+	},
+	{
+		"origin": "AstroArena.my",
+		"channel_name": "MY: Astro Arena",
+		"channel_id": "AstroArena.my"
+	},
+	{
+		"origin": "AstroArena2.my",
+		"channel_name": "MY: Astro Arena 2",
+		"channel_id": "AstroArena2.my"
+	},
+	{
+		"origin": "AstroAura.my",
+		"channel_name": "MY: Astro Aura",
+		"channel_id": "AstroAura.my"
+	},
+	{
+		"origin": "AstroAwani.my",
+		"channel_name": "MY: Astro Awani",
+		"channel_id": "AstroAwani.my"
+	},
+	{
+		"origin": "AstroBollyOneHD.my",
+		"channel_name": "MY: Astro BolllyOne",
+		"channel_id": "AstroBollyOne.my"
+	},
+	{
+		"origin": "AstroBoxOfficeTayanganHebat.my",
+		"channel_name": "MY: Astro Box Office Movies Tayangan Hebat",
+		"channel_id": "AstroBoxOfficeTayanganHebat.my"
+	},
+	{
+		"origin": "AstroBoxOfficeThangathirai.my",
+		"channel_name": "MY: Astro Box Office Thangathirai",
+		"channel_id": "AstroBoxOfficeThangathirai.my"
+	},
+	{
+		"origin": "AstroCeria.my",
+		"channel_name": "MY: Astro Ceria",
+		"channel_id": "AstroCeria.my"
+	},
+	{
+		"origin": "AstroCh100.my",
+		"channel_name": "MY: Demi Negaraku",
+		"channel_id": "AstroCh100.my"
+	},
+	{
+		"origin": "AstroCitra.my",
+		"channel_name": "MY: Astro Citra",
+		"channel_id": "AstroCitra.my"
+	},
+	{
+		"origin": "AstroCricket.my",
+		"channel_name": "MY: Astro Cricket",
+		"channel_id": "AstroCricket.my"
+	},
+	{
+		"origin": "AstroHuaHeeDai.my",
+		"channel_name": "MY: Astro Huang Hee Dai",
+		"channel_id": "AstroHuaHeeDai.my"
+	},
+	{
+		"origin": "AstroOasis.my",
+		"channel_name": "MY: Astro Oasis",
+		"channel_id": "AstroOasis.my"
+	},
+	{
+		"origin": "AstroPrima.my",
+		"channel_name": "MY: Astro Prima",
+		"channel_id": "AstroPrima.my"
+	},
+	{
+		"origin": "AstroQuanJiaHD.my",
+		"channel_name": "MY: Astro QJ",
+		"channel_id": "AstroQuanJiaHD.my"
+	},
+	{
+		"origin": "AstroRania.my",
+		"channel_name": "MY: Astro Rania",
+		"channel_id": "AstroRania.my"
+	},
+	{
+		"origin": "AstroRia.my",
+		"channel_name": "MY: Astro Ria",
+		"channel_id": "AstroRia.my"
+	},
+	{
+		"origin": "AstroShuangXing.my",
+		"channel_name": "MY: Astro Shuang Xing",
+		"channel_id": "AstroShuangXing.my"
+	},
+	{
+		"origin": "AstroSuperSport.my",
+		"channel_name": "MY: Astro SuperSport",
+		"channel_id": "AstroSuperSport.my"
+	},
+	{
+		"origin": "AstroSuperSport2.my",
+		"channel_name": "MY: Astro SuperSport 2",
+		"channel_id": "AstroSuperSport2.my"
+	},
+	{
+		"origin": "AstroSuperSport3.my",
+		"channel_name": "MY: Astro SuperSport 3",
+		"channel_id": "AstroSuperSport3.my"
+	},
+	{
+		"origin": "AstroSuperSport4.my",
+		"channel_name": "MY: Astro SuperSport 4",
+		"channel_id": "AstroSuperSport4.my"
+	},
+	{
+		"origin": "AstroSuperSport5.my",
+		"channel_name": "MY: Astro SuperSport 5",
+		"channel_id": "AstroSuperSport5.my"
+	},
+	{
+		"origin": "AstroTutorTVPT3.my",
+		"channel_name": "MY: Astro Tutor TV",
+		"channel_id": "AstroTutorTVPT3.my"
+	},
+	{
+		"origin": "AstroTutorTVSPM.my",
+		"channel_name": "MY: Astro Tutor TV",
+		"channel_id": "AstroTutorTVSPM.my"
+	},
+	{
+		"origin": "AstroTutorTVUPSR.my",
+		"channel_name": "MY: Astro Tutor TV",
+		"channel_id": "AstroTutorTVUPSR.my"
+	},
+	{
+		"origin": "AstroUHD.my",
+		"channel_name": "MY: Astro SuperSport UHD",
+		"channel_id": "AstroUHD.my"
+	},
+	{
+		"origin": "AstroVaanavil.my",
+		"channel_name": "MY: Astro Vaanavil",
+		"channel_id": "AstroVaanavil.my"
+	},
+	{
+		"origin": "AstroVellithirai.my",
+		"channel_name": "MY: Astro Vellithirai",
+		"channel_id": "AstroVellithirai.my"
+	},
+	{
+		"origin": "AstroVinmeenHD.my",
+		"channel_name": "MY: Astro Vinmeen",
+		"channel_id": "AstroVinmeenHD.my"
+	},
+	{
+		"origin": "AstroWahLaiToi.my",
+		"channel_name": "MY: Astro Wah Lai Toi",
+		"channel_id": "AstroWahLaiToi.my"
+	},
+	{
+		"origin": "AstroWarna.my",
+		"channel_name": "MY: Astro Warna",
+		"channel_id": "AstroWarna.my"
+	},
+	{
+		"origin": "AstroXiaoTaiYang.my",
+		"channel_name": "MY: Astro Xiao Tai Yang",
+		"channel_id": "AstroXiaoTaiYang.my"
+	},
+	{
+		"origin": "AwesomeTV.my",
+		"channel_name": "MY: Awesome TV",
+		"channel_id": "AwesomeTV.my"
+	},
+	{
+		"origin": "AXNMalaysia.my",
+		"channel_name": "MY: AXN",
+		"channel_id": "AXNMalaysia.sg.my"
+	},
+	{
+		"origin": "BBCEarthAsia.uk",
+		"channel_name": "MY: BBC Earth",
+		"channel_id": "BBCEarthAsia.uk.my"
+	},
+	{
+		"origin": "BBCFirstAsia.uk",
+		"channel_name": "MY: BBC First",
+		"channel_id": "BBCFirstAsia.uk.my"
+	},
+	{
+		"origin": "BBCLifestyleAsia.uk",
+		"channel_name": "MY: BBC Lifestyle",
+		"channel_id": "BBCLifestyleAsia.uk.my"
+	},
+	{
+		"origin": "BBCWorldNewsAsiaPacific.uk",
+		"channel_name": "MY: BBC World News",
+		"channel_id": "BBCWorldNewsAsiaPacific.uk.my"
+	},
+	{
+		"origin": "beINSports.qa",
+		"channel_name": "MY: beIN Sports 1",
+		"channel_id": "beINSports1.qa.my"
+	},
+	{
+		"origin": "beINSports2.qa",
+		"channel_name": "MY: beIN Sports 2",
+		"channel_id": "beINSports2.qa.my"
+	},
+	{
+		"origin": "beINSports3.qa",
+		"channel_name": "MY: beIN Sports 3",
+		"channel_id": "beINSports3.qa.my"
+	},
+	{
+		"origin": "BernamaTV.my",
+		"channel_name": "MY: Bernama TV",
+		"channel_id": "BernamaTV.my"
+	},
+	{
+		"origin": "BloombergTVAsia.hk",
+		"channel_name": "MY: Bloomberg",
+		"channel_id": "BloombergTVAsia.hk.my"
+	},
+	{
+		"origin": "Boo.my",
+		"channel_name": "MY: Boo",
+		"channel_id": "Boo.my"
+	},
+	{
+		"origin": "BoomerangSoutheastAsia.us",
+		"channel_name": "MY: Boomerang",
+		"channel_id": "BoomerangSoutheastAsia.us.my"
+	},
+	{
+		"origin": "CartoonNetworkAsia.sg",
+		"channel_name": "MY: Cartoon Network",
+		"channel_id": "CartoonNetworkAsia.sg.my"
+	},
+	{
+		"origin": "CCM.hk",
+		"channel_name": "MY: Celestial Classic Movies",
+		"channel_id": "CCM.hk.my"
+	},
+	{
+		"origin": "CCTV4Asia.cn",
+		"channel_name": "MY: CCTV-4",
+		"channel_id": "CCTV4Asia.cn.my"
+	},
+	{
+		"origin": "CelestialMoviesMalaysia.my",
+		"channel_name": "MY: Celestial Movies",
+		"channel_id": "CelestialMoviesMalaysia.hk.my"
+	},
+	{
+		"origin": "CGTN.cn",
+		"channel_name": "MY: CGTN",
+		"channel_id": "CGTN.cn.my"
+	},
+	{
+		"origin": "ChuttiTVMalaysia.my",
+		"channel_name": "MY: Chutti TV",
+		"channel_id": "ChuttiTVMalaysia.my"
+	},
+	{
+		"origin": "CinemaxAsia.sg",
+		"channel_name": "MY: Cinemax",
+		"channel_id": "CinemaxAsia.sg.my"
+	},
+	{
+		"origin": "CNA.sg",
+		"channel_name": "MY: CNA",
+		"channel_id": "CNAInternational.sg.my"
+	},
+	{
+		"origin": "CNBCAsia.sg",
+		"channel_name": "MY: CNBC Asia",
+		"channel_id": "CNBCAsia.sg.my"
+	},
+	{
+		"origin": "CNNInternationalAsiaPacific.hk",
+		"channel_name": "MY: CNN International",
+		"channel_id": "CNNInternationalAsiaPacific.hk.my"
+	},
+	{
+		"origin": "Colors.in",
+		"channel_name": "MY: Colors",
+		"channel_id": "Colors.in.my"
+	},
+	{
+		"origin": "ColorsTamil.in",
+		"channel_name": "MY: Colors Tamil",
+		"channel_id": "ColorsTamil.in.my"
+	},
+	{
+		"origin": "CrimePlusInvestigationAsia.sg",
+		"channel_name": "MY: Crime + Investigation",
+		"channel_id": "CrimePlusInvestigationAsia.sg.my"
+	},
+	{
+		"origin": "CTiAsia.tw",
+		"channel_name": "MY: CTI Asia",
+		"channel_id": "CTiAsia.tw.my"
+	},
+	{
+		"origin": "DiscoveryAsia.sg",
+		"channel_name": "MY: Discovery Asia",
+		"channel_id": "DiscoveryAsia.sg.my"
+	},
+	{
+		"origin": "DiscoveryChannelIndonesia.id",
+		"channel_name": "MY: Discovery Channel",
+		"channel_id": "DiscoveryChannelIndonesia.sg.my"
+	},
+	{
+		"origin": "DMAXSoutheastAsia.sg",
+		"channel_name": "MY: DMAX",
+		"channel_id": "DMAXSoutheastAsia.sg.my"
+	},
+	{
+		"origin": "DWEnglish.de",
+		"channel_name": "MY: DW English",
+		"channel_id": "DWEnglish.de.my"
+	},
+	{
+		"origin": "eGGNetwork.my",
+		"channel_name": "MY: eGG Network",
+		"channel_id": "eGGNetwork.my"
+	},
+	{
+		"origin": "EntertainmentNews.hk",
+		"channel_name": "MY: Entertainment News",
+		"channel_id": "EntertainmentNews.hk.my"
+	},
+	{
+		"origin": "EurosportAsia.fr",
+		"channel_name": "MY: EuroSport",
+		"channel_id": "EuroSportAsia.fr.my"
+	},
+	{
+		"origin": "FoodNetworkAsia.sg",
+		"channel_name": "MY: Food Network",
+		"channel_id": "FoodNetworkAsia.sg.my"
+	},
+	{
+		"origin": "France24English.fr",
+		"channel_name": "MY: France 24 English",
+		"channel_id": "France24English.fr.my"
+	},
+	{
+		"origin": "GolfChannelMalaysia.my",
+		"channel_name": "MY: Golf Channel",
+		"channel_id": "GolfChannelMalaysia.us.my"
+	},
+	{
+		"origin": "GoShopChinese.my",
+		"channel_name": "MY: GoShop Chinesse",
+		"channel_id": "GoShopChinese.my"
+	},
+	{
+		"origin": "GoShopMalay111.my",
+		"channel_name": "MY: GoShop Malay [Channel 111]",
+		"channel_id": "GoShopMalay111.my"
+	},
+	{
+		"origin": "GoShopMalay118.my",
+		"channel_name": "MY: GoShop Malay [Channel 118]",
+		"channel_id": "GoShopMalay118.my"
+	},
+	{
+		"origin": "GoShopMalay120.my",
+		"channel_name": "MY: GoShop Malay [Channel 120]",
+		"channel_id": "GoShopMalay120.my"
+	},
+	{
+		"origin": "HBOAsia.sg",
+		"channel_name": "MY: HBO",
+		"channel_id": "HBOAsia.sg.my"
+	},
+	{
+		"origin": "HBOFamilyAsia.sg",
+		"channel_name": "MY: HBO Family",
+		"channel_id": "HBOFamilyAsia.sg.my"
+	},
+	{
+		"origin": "HBOHitsAsia.sg",
+		"channel_name": "MY: HBO Hits",
+		"channel_id": "HBOHitsAsia.sg.my"
+	},
+	{
+		"origin": "HGTVAsia.us",
+		"channel_name": "MY: HGTV",
+		"channel_id": "HGTVAsia.us.my"
+	},
+	{
+		"origin": "HistoryAsia.us",
+		"channel_name": "MY: History",
+		"channel_id": "HistoryAsia.us.my"
+	},
+	{
+		"origin": "HITS.sg",
+		"channel_name": "MY: HITS",
+		"channel_id": "HITS.sg.my"
+	},
+	{
+		"origin": "HITSMovies.sg",
+		"channel_name": "MY: HITS Movies",
+		"channel_id": "HITSMovies.sg.my"
+	},
+	{
+		"origin": "iQIYI.cn",
+		"channel_name": "MY: iQIYI",
+		"channel_id": "iQIYI.cn.my"
+	},
+	{
+		"origin": "Jade.hk",
+		"channel_name": "MY: TVB Jade",
+		"channel_id": "Jade.hk.my"
+	},
+	{
+		"origin": "KBSWorld.kr",
+		"channel_name": "MY: KBS World",
+		"channel_id": "KBSWorld.kr.my"
+	},
+	{
+		"origin": "KIX.hk",
+		"channel_name": "MY: KIX",
+		"channel_id": "KIX.hk.my"
+	},
+	{
+		"origin": "KPlus.sg",
+		"channel_name": "MY: K+",
+		"channel_id": "KPlus.sg.my"
+	},
+	{
+		"origin": "LifetimeAsia.us",
+		"channel_name": "MY: Lifetime",
+		"channel_id": "LifetimeAsia.us.my"
+	},
+	{
+		"origin": "MoonbugKids.uk",
+		"channel_name": "MY: Moonbug Kids",
+		"channel_id": "MoonbugKids.uk.my"
+	},
+	{
+		"origin": "MTVAsia.sg",
+		"channel_name": "MY: MTV",
+		"channel_id": "MTVAsia.sg.my"
+	},
+	{
+		"origin": "NatGeoPeopleMalaysia.my",
+		"channel_name": "MY: National Geographic People",
+		"channel_id": "NatGeoPeopleMalaysia.us.my"
+	},
+	{
+		"origin": "NationalGeographicMalaysia.my",
+		"channel_name": "MY: National Geographic Channel",
+		"channel_id": "NationalGeographicMalaysia.us.my"
+	},
+	{
+		"origin": "NationalGeographicWildMalaysia.my",
+		"channel_name": "MY: National Geographic Wild",
+		"channel_id": "NationalGeographicWildMalaysia.us.my"
+	},
+	{
+		"origin": "NHKWorldPremium.jp",
+		"channel_name": "MY: NHK World Premium",
+		"channel_id": "NHKWorldPremium.jp.my"
+	},
+	{
+		"origin": "NickelodeonAsia.sg",
+		"channel_name": "MY: Nickelodeon",
+		"channel_id": "NickelodeonAsia.sg.my"
+	},
+	{
+		"origin": "NickJrAsia.sg",
+		"channel_name": "MY: Nick Jr.",
+		"channel_id": "NickJrAsia.sg.my"
+	},
+	{
+		"origin": "NjoiTV.my",
+		"channel_name": "MY: Njoi TV",
+		"channel_id": "NjoiTV.my"
+	},
+	{
+		"origin": "NTV7.my",
+		"channel_name": "MY: Didik TV KPM (TV7)",
+		"channel_id": "NTV7.my"
+	},
+	{
+		"origin": "Okey.my",
+		"channel_name": "MY: Okey",
+		"channel_id": "Okey.my"
+	},
+	{
+		"origin": "OneTVAsia.sg",
+		"channel_name": "MY: ONE",
+		"channel_id": "OneTVAsia.sg.my"
+	},
+	{
+		"origin": "ParamountNetworkMalaysia.my",
+		"channel_name": "MY: Paramount Network",
+		"channel_id": "ParamountNetworkMalaysia.us.my"
+	},
+	{
+		"origin": "PhoenixChineseChannel.hk",
+		"channel_name": "MY: Phoenix Chinese Channel",
+		"channel_id": "PhoenixChineseChannel.hk.my"
+	},
+	{
+		"origin": "PhoenixInfoNewsChannel.hk",
+		"channel_name": "MY: Phoenix InfoNews Channel",
+		"channel_id": "PhoenixInfoNewsChannel.hk.my"
+	},
+	{
+		"origin": "PremierSports1Asia.ie",
+		"channel_name": "MY: Premier Sports",
+		"channel_id": "PremierSports1Asia.ie.my"
+	},
+	{
+		"origin": "PRIMEtime.my",
+		"channel_name": "MY: PRIME time",
+		"channel_id": "PRIMEtime.my"
+	},
+	{
+		"origin": "ShowcaseMovies.my",
+		"channel_name": "MY: Showcase",
+		"channel_id": "ShowcaseMovies.my"
+	},
+	{
+		"origin": "SkyNews.uk",
+		"channel_name": "MY: Sky News",
+		"channel_id": "SkyNews.uk.my"
+	},
+	{
+		"origin": "SPOTV.kr",
+		"channel_name": "MY: SPOTV",
+		"channel_id": "SPOTV.kr.my"
+	},
+	{
+		"origin": "StarVijay.in",
+		"channel_name": "MY: Star Vijay",
+		"channel_id": "StarVijay.in.my"
+	},
+	{
+		"origin": "SunMusic.in",
+		"channel_name": "MY: Sun Music",
+		"channel_id": "SunMusic.in.my"
+	},
+	{
+		"origin": "SunTVMalaysia.my",
+		"channel_name": "MY: Sun TV",
+		"channel_id": "SunTVMalaysia.in.my"
+	},
+	{
+		"origin": "TADAA.my",
+		"channel_name": "MY: TADA",
+		"channel_id": "TADAA.my"
+	},
+	{
+		"origin": "TLCSoutheastAsia.sg",
+		"channel_name": "MY: TLC",
+		"channel_id": "TLCSoutheastAsia.sg.my"
+	},
+	{
+		"origin": "TV1.my",
+		"channel_name": "MY: TV1",
+		"channel_id": "TV1.my"
+	},
+	{
+		"origin": "TV2.my",
+		"channel_name": "MY: TV2",
+		"channel_id": "TV2.my"
+	},
+	{
+		"origin": "TV3.my",
+		"channel_name": "MY: TV3",
+		"channel_id": "TV3.my"
+	},
+	{
+		"origin": "TV9.my",
+		"channel_name": "MY: TV9",
+		"channel_id": "TV9.my"
+	},
+	{
+		"origin": "TVAlhijrah.my",
+		"channel_name": "MY: TV Al-Hijrah",
+		"channel_id": "TVAlhijrah.my"
+	},
+	{
+		"origin": "TVBClassic.hk",
+		"channel_name": "MY: TVB Classic",
+		"channel_id": "TVBClassic.hk.my"
+	},
+	{
+		"origin": "TVBSAsia.tw",
+		"channel_name": "MY: TVBS Asia",
+		"channel_id": "TVBSAsia.tw.my"
+	},
+	{
+		"origin": "TVBXingHe.hk",
+		"channel_name": "My: TVB Xing He",
+		"channel_id": "TVBXingHe.hk.my"
+	},
+	{
+		"origin": "tvNAsia.hk",
+		"channel_name": "MY: tvN",
+		"channel_id": "tvNAsia.hk.my"
+	},
+	{
+		"origin": "tvNMoviesAsia.hk",
+		"channel_name": "MY: tvN Movies",
+		"channel_id": "tvNMoviesAsia.hk.my"
+	},
+	{
+		"origin": "TVS.my",
+		"channel_name": "MY: TVS",
+		"channel_id": "TVS.my"
+	},
+	{
+		"origin": "WarnerTVAsia.us",
+		"channel_name": "MY: Warner TV",
+		"channel_id": "WarnerTVAsia.us.my"
+	},
+	{
+		"origin": "WWENetwork.us",
+		"channel_name": "MY: WWE Network",
+		"channel_id": "WWENetwork.us.my"
+	},
+	{
+		"origin": "ZeeTamil.in",
+		"channel_name": "MY: Zee Tamil",
+		"channel_id": "ZeeTamil.in.my"
+	}
+]

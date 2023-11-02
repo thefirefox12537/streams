@@ -1,0 +1,327 @@
+[
+	{
+		"origin": "8TV",
+		"channel_name": "MY: 8TV",
+		"channel_id": "8TV.my"
+	},
+	{
+		"origin": "Al Jazeera",
+		"channel_name": "MY: Al-Jazeera English",
+		"channel_id": "AlJazeeraEnglish.qa.my"
+	},
+	{
+		"origin": "Animax",
+		"channel_name": "MY: Animax",
+		"channel_id": "AnimaxAsia.sg.my"
+	},
+	{
+		"origin": "AXN",
+		"channel_name": "MY: AXN",
+		"channel_id": "AXNMalaysia.sg.my"
+	},
+	{
+		"origin": "BBC Earth HD",
+		"channel_name": "MY: BBC Earth",
+		"channel_id": "BBCEarthAsia.uk.my"
+	},
+	{
+		"origin": "BBC Lifestyle HD",
+		"channel_name": "MY: BBC Lifestyle",
+		"channel_id": "BBCLifestyleAsia.uk.my"
+	},
+	{
+		"origin": "BBC News",
+		"channel_name": "MY: BBC World News",
+		"channel_id": "BBCWorldNewsAsiaPacific.uk.my"
+	},
+	{
+		"origin": "beIN SPORTS",
+		"channel_name": "MY: beIN Sports 1",
+		"channel_id": "beINSports1.qa.my"
+	},
+	{
+		"origin": "beIN SPORTS 2",
+		"channel_name": "MY: beIN Sports 2",
+		"channel_id": "beINSports2.qa.my"
+	},
+	{
+		"origin": "beIN SPORTS 3",
+		"channel_name": "MY: beIN Sports 3",
+		"channel_id": "beINSports3.qa.my"
+	},
+	{
+		"origin": "beIN SPORTS 4",
+		"channel_name": "MY: beIN Sports 4",
+		"channel_id": "beINSports4.qa.my"
+	},
+	{
+		"origin": "Bernama TV",
+		"channel_name": "MY: Bernama TV",
+		"channel_id": "BernamaTV.my"
+	},
+	{
+		"origin": "Boomerang HD",
+		"channel_name": "MY: Boomerang",
+		"channel_id": "BoomerangSoutheastAsia.us.my"
+	},
+	{
+		"origin": "CBeebies HD",
+		"channel_name": "MY: CBeebies",
+		"channel_id": "CBeebiesAsia.uk.my"
+	},
+	{
+		"origin": "CCM",
+		"channel_name": "MY: Celestial Classic Movies",
+		"channel_id": "CCM.hk.my"
+	},
+	{
+		"origin": "CCTV-4 HD",
+		"channel_name": "MY: CCTV-4",
+		"channel_id": "CCTV4Asia.cn.my"
+	},
+	{
+		"origin": "Celestial Movies",
+		"channel_name": "MY: Celestial Movies",
+		"channel_id": "CelestialMoviesMalaysia.hk.my"
+	},
+	{
+		"origin": "CGTN HD",
+		"channel_name": "MY: CGTN",
+		"channel_id": "CGTN.cn.my"
+	},
+	{
+		"origin": "CinemaWorld HD",
+		"channel_name": "MY: Cinema World",
+		"channel_id": "CinemaWorld.my"
+	},
+	{
+		"origin": "CNA",
+		"channel_name": "MY: CNA",
+		"channel_id": "CNAInternational.sg.my"
+	},
+	{
+		"origin": "Colors Cineplex",
+		"channel_name": "MY: Colors Cineplex",
+		"channel_id": "ColorsCineplex.in.my"
+	},
+	{
+		"origin": "Colors Tamil HD",
+		"channel_name": "MY: Colors Tamil",
+		"channel_id": "ColorsTamil.in.my"
+	},
+	{
+		"origin": "DEGUP",
+		"channel_name": "MY: DEGUP",
+		"channel_id": "Degup.my"
+	},
+	{
+		"origin": "DidikTV KPM",
+		"channel_name": "MY: Didik TV KPM (TV7)",
+		"channel_id": "NTV7.my"
+	},
+	{
+		"origin": "Dreamworks HD",
+		"channel_name": "MY: DreamWorks Channel",
+		"channel_id": "DreamWorksChannelAsia.us.my"
+	},
+	{
+		"origin": "Dunia Sinema HD",
+		"channel_name": "MY: Dunia Sinema",
+		"channel_id": "DuniaSinema.my"
+	},
+	{
+		"origin": "DW",
+		"channel_name": "MY: DW English",
+		"channel_id": "DWEnglish.de.my"
+	},
+	{
+		"origin": "Euronews",
+		"channel_name": "MY: EuroNews English",
+		"channel_id": "EuroNewsEnglish.fr.my"
+	},
+	{
+		"origin": "France 24",
+		"channel_name": "MY: France 24 English",
+		"channel_id": "France24English.fr.my"
+	},
+	{
+		"origin": "GEM",
+		"channel_name": "MY: GEM",
+		"channel_id": "SonyGem.sg.my"
+	},
+	{
+		"origin": "HITS",
+		"channel_name": "MY: HITS",
+		"channel_id": "HITS.sg.my"
+	},
+	{
+		"origin": "HITS Movies",
+		"channel_name": "MY: HITS Movies",
+		"channel_id": "HITSMovies.sg.my"
+	},
+	{
+		"origin": "Inspirasi",
+		"channel_name": "MY: Inspirasi",
+		"channel_id": "Inspirasi.my"
+	},
+	{
+		"origin": "K-Plus",
+		"channel_name": "MY: K+",
+		"channel_id": "KPlus.sg.my"
+	},
+	{
+		"origin": "Love Nature HD",
+		"channel_name": "MY: Love Nature",
+		"channel_id": "LoveNature.ca.my"
+	},
+	{
+		"origin": "Luxe.TV HD",
+		"channel_name": "MY: Luxe.TV",
+		"channel_id": "LuxeTVHD.my"
+	},
+	{
+		"origin": "Moonbug Kids",
+		"channel_name": "MY: Moonbug Kids",
+		"channel_id": "MoonbugKids.uk.my"
+	},
+	{
+		"origin": "MTV Live",
+		"channel_name": "MY: MTV Live",
+		"channel_id": "MTVLive.uk.my"
+	},
+	{
+		"origin": "NHK WORLD-JAPAN",
+		"channel_name": "MY: NHK World Japan",
+		"channel_id": "NHKWorldJapan.jp.my"
+	},
+	{
+		"origin": "Nick Jr.",
+		"channel_name": "MY: Nick Jr.",
+		"channel_id": "NickJrAsia.sg.my"
+	},
+	{
+		"origin": "Now Jelli HD",
+		"channel_name": "MY: Now Jelli",
+		"channel_id": "NowJelli.cn.my"
+	},
+	{
+		"origin": "ONE",
+		"channel_name": "MY: ONE",
+		"channel_id": "OneTVAsia.sg.my"
+	},
+	{
+		"origin": "Paramount Network",
+		"channel_name": "MY: Paramount Network",
+		"channel_id": "ParamountNetworkMalaysia.us.my"
+	},
+	{
+		"origin": "Parlimen Malaysia",
+		"channel_name": "MY: Parlimen Malaysia",
+		"channel_id": "ParlimenMalaysia.my"
+	},
+	{
+		"origin": "Pesona HD",
+		"channel_name": "MY: Pesona",
+		"channel_id": "Pesona.my"
+	},
+	{
+		"origin": "ROCK Action",
+		"channel_name": "MY: Rock Action",
+		"channel_id": "RockAction.sg.my"
+	},
+	{
+		"origin": "ROCK Entertainment",
+		"channel_name": "MY: Rock Entertainment",
+		"channel_id": "RockEntertainment.sg.my"
+	},
+	{
+		"origin": "Salam HD",
+		"channel_name": "MY: Salam",
+		"channel_id": "Salam.my"
+	},
+	{
+		"origin": "Sensasi",
+		"channel_name": "MY: Sensasi",
+		"channel_id": "Sensasi.my"
+	},
+	{
+		"origin": "SETI",
+		"channel_name": "MY: SET International",
+		"channel_id": "SETI.tw.my"
+	},
+	{
+		"origin": "SIAR",
+		"channel_name": "MY: SIAR",
+		"channel_id": "SIAR.my"
+	},
+	{
+		"origin": "Sony YAY!",
+		"channel_name": "MY: Sony YAY!",
+		"channel_id": "SonyYAY.in.my"
+	},
+	{
+		"origin": "SPOTV",
+		"channel_name": "MY: SPOTV",
+		"channel_id": "SPOTV.kr.my"
+	},
+	{
+		"origin": "SPOTV2",
+		"channel_name": "MY: SPOTV 2",
+		"channel_id": "SPOTV2.kr.my"
+	},
+	{
+		"origin": "Travel Channel HD",
+		"channel_name": "MY: Travel Channel",
+		"channel_id": "TravelChannelAsia.us.my"
+	},
+	{
+		"origin": "TV AlHijrah HD",
+		"channel_name": "MY: TV Al-Hijrah",
+		"channel_id": "TVAlHijrah.my"
+	},
+	{
+		"origin": "TV1",
+		"channel_name": "MY: TV1",
+		"channel_id": "TV1.my"
+	},
+	{
+		"origin": "TV2",
+		"channel_name": "MY: TV2",
+		"channel_id": "TV2.my"
+	},
+	{
+		"origin": "TV3",
+		"channel_name": "MY: TV3",
+		"channel_id": "TV3.my"
+	},
+	{
+		"origin": "TV9",
+		"channel_name": "MY: TV9",
+		"channel_id": "TV9.my"
+	},
+	{
+		"origin": "tvN HD",
+		"channel_name": "MY: tvN",
+		"channel_id": "tvNAsia.hk.my"
+	},
+	{
+		"origin": "tvN Movies HD",
+		"channel_name": "MY: tvN Movies",
+		"channel_id": "tvNMoviesAsia.hk.my"
+	},
+	{
+		"origin": "unifi Sports 1",
+		"channel_name": "MY: unifi Sports",
+		"channel_id": "unifiSports.my"
+	},
+	{
+		"origin": "Warner TV HD",
+		"channel_name": "MY: Warner TV",
+		"channel_id": "WarnerTVAsia.us.my"
+	},
+	{
+		"origin": "Wion",
+		"channel_name": "MY: Wion",
+		"channel_id": "Wion.in.my"
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"origin": "Berita RTM",
+		"channel_name": "MY: Berita RTM",
+		"channel_id": "BeritaRTM.my"
+	},
+	{
+		"origin": "Dewan Negara",
+		"channel_name": "MY: Dewan Negara",
+		"channel_id": "DewanNegara.my"
+	},
+	{
+		"origin": "Dewan Rakyat",
+		"channel_name": "MY: Dewan Rakyat",
+		"channel_id": "DewanRakyat.my"
+	},
+	{
+		"origin": "Okey",
+		"channel_name": "MY: Okey",
+		"channel_id": "Okey.my"
+	},
+	{
+		"origin": "Sukan RTM",
+		"channel_name": "MY: Sukan RTM",
+		"channel_id": "SukanRTM.my"
+	},
+	{
+		"origin": "TV1",
+		"channel_name": "MY: TV1",
+		"channel_id": "TV1.my"
+	},
+	{
+		"origin": "TV2",
+		"channel_name": "MY: TV2",
+		"channel_id": "TV2.my"
+	},
+	{
+		"origin": "TV6",
+		"channel_name": "MY: TV6",
+		"channel_id": "TV6.my"
+	}
+]
