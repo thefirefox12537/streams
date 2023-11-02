@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
   print('Parsing data...');
   et.indent(tree, space='');
-  tostring = b'<?xml version="1.0" ?>' + et.tostring(tree, encoding='UTF-8', method='xml', pretty_print=True);
+  tostring = b'<?xml version="1.0" ?>\n' + et.tostring(tree, encoding='UTF-8', method='xml', pretty_print=True);
   output = re.sub(b'\n\n', b'', tostring);
 
   print('Creating file...');
