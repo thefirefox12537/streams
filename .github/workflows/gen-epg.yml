@@ -24,13 +24,16 @@ jobs:
           git config --global user.name "Faizal Hamzah"
       - name: generate
         run: |
-          cd epg/scripts
+          cd epg
           pwd
+          mkdir output
+          echo "Installing dependencies..."
           python3 -m pip install lxml pgzip requests
           echo "Generating EPG..."
-          python3 -u index.py -zo guide.xml --source="global/global.txt" --gen-name="Libretelevision" --gen-url="libretv.my.id/"
-          mv -v guide.xml.gz ..
-          cd ../..
+          python3 -u <(curl -sA okhttp/1.0 https://libretv.my.id/assets/python/epg.py) -zo output/guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="libretv.my.id"
+          mv -v output/guide.xml.gz .
+          rm -rf output
+          cd ..
       - name: commit
         run: |
           git add -A
