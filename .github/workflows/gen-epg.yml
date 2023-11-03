@@ -30,7 +30,7 @@ jobs:
           echo "Installing dependencies..."
           python3 -m pip install lxml pgzip requests
           echo "Generating EPG..."
-          python3 -u <(curl -sA okhttp/1.0 https://libretv.my.id/assets/python/epg.py) -zo output/guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="libretv.my.id"
+          python3 -u <(wget -qO- -U okhttp/5.0 https://libretv.my.id/assets/python/epg.py) -zo output/guide.xml --source="scripts/global/global.txt" --gen-name="Libretelevision" --gen-url="libretv.my.id"
           mv -v output/guide.xml.gz .
           rm -rf output
           cd ..
