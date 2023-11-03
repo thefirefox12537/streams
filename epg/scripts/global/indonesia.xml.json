@@ -426,23 +426,23 @@
 	},
 	{
 		"origin": "Nat Geo Wild HD - [Channel 463].id",
-		"channel_name": "ID: National Geographic Wild",
-		"channel_id": "NationalGeographicWildIndonesia.us.id"
+		"channel_name": "ID: Love Nature",
+		"channel_id": "LoveNature.us.id"
 	},
 	{
 		"origin": "National Geographic Channel - [Channel 202].id",
-		"channel_name": "ID: National Geographic Channel",
-		"channel_id": "NationalGeographicIndonesia.us.id"
+		"channel_name": "ID: Outdoor Channel",
+		"channel_id": "OutdoorChannel.us.id"
 	},
 	{
 		"origin": "National Geographic Channel HD - [Channel 460].id",
-		"channel_name": "ID: National Geographic Channel",
-		"channel_id": "NationalGeographicIndonesia.us.id"
+		"channel_name": "ID: Outdoor Channel",
+		"channel_id": "OutdoorChannel.us.id"
 	},
 	{
 		"origin": "National Geographic Wild - [Channel 204].id",
-		"channel_name": "ID: National Geographic Wild",
-		"channel_id": "NationalGeographicWildIndonesia.us.id"
+		"channel_name": "ID: Love Nature",
+		"channel_id": "LoveNature.us.id"
 	},
 	{
 		"origin": "NET TV - [Channel 116].id",
