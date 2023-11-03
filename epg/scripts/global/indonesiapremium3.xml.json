@@ -81,8 +81,8 @@
 	},
 	{
 		"origin": "Boomerang",
-		"channel_name": "ID: Boomerang",
-		"channel_id": "BoomerangSoutheastAsia.us.id"
+		"channel_name": "ID: Cartoonito",
+		"channel_id": "CartoonitoSoutheastAsia.us.id"
 	},
 	{
 		"origin": "BTV",
@@ -301,8 +301,8 @@
 	},
 	{
 		"origin": "IndiKids",
-		"channel_name": "ID: IndiKids",
-		"channel_id": "IndiKids.id"
+		"channel_name": "ID: Fun Planet",
+		"channel_id": "FunPlanet.id"
 	},
 	{
 		"origin": "Indonesiana TV",
@@ -656,8 +656,8 @@
 	},
 	{
 		"origin": "UseePrime",
-		"channel_name": "ID: UseePrime",
-		"channel_id": "UseePrime.id"
+		"channel_name": "ID: AllPlay Entertainment",
+		"channel_id": "AllPlayEnt.id"
 	},
 	{
 		"origin": "UseeSports",
