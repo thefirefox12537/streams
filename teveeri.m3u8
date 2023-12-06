@@ -1,9 +1,0 @@
-#EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=991124,RESOLUTION=960x540
-http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/02.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=122032,CODECS="mp4a.40.2"
-http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/04.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=494559,RESOLUTION=320x240
-http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/01.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2402472,RESOLUTION=960x540
-http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/03.m3u8
