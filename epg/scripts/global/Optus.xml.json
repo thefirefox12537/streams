@@ -1,0 +1,62 @@
+[
+  {
+    "origin": "os1",
+    "channel_name": "AU: Optus Sports 1",
+    "channel_id": "OptusSports1.au"
+  },
+  {
+    "origin": "os2",
+    "channel_name": "AU: Optus Sports 2",
+    "channel_id": "OptusSports2.au"
+  },
+  {
+    "origin": "os3",
+    "channel_name": "AU: Optus Sports 3",
+    "channel_id": "OptusSports3.au"
+  },
+  {
+    "origin": "os4",
+    "channel_name": "AU: Optus Sports 4",
+    "channel_id": "OptusSports4.au"
+  },
+  {
+    "origin": "os5",
+    "channel_name": "AU: Optus Sports 5",
+    "channel_id": "OptusSports5.au"
+  },
+  {
+    "origin": "os6",
+    "channel_name": "AU: Optus Sports 6",
+    "channel_id": "OptusSports6.au"
+  },
+  {
+    "origin": "os7",
+    "channel_name": "AU: Optus Sports 7",
+    "channel_id": "OptusSports7.au"
+  },
+  {
+    "origin": "os8",
+    "channel_name": "AU: Optus Sports 8",
+    "channel_id": "OptusSports8.au"
+  },
+  {
+    "origin": "os9",
+    "channel_name": "AU: Optus Sports 9",
+    "channel_id": "OptusSports9.au"
+  },
+  {
+    "origin": "os10",
+    "channel_name": "AU: Optus Sports 10",
+    "channel_id": "OptusSports10.au"
+  },
+  {
+    "origin": "os11",
+    "channel_name": "AU: Optus Sports 11",
+    "channel_id": "OptusSports11.au"
+  },
+  {
+    "origin": "os12",
+    "channel_name": "AU: Optus Sports 12",
+    "channel_id": "OptusSports12.au"
+  }
+]
