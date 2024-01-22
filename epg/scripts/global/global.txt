@@ -11,7 +11,7 @@ Optus.xml
 https://epg.ninja/epg/MISC/AUSoptus.xml
 
 arabia.xml
-https://raw.githubcontent.com/bebawy6/EPG/master/arEPG.xml
+https://raw.githubusercontent.com/bebawy6/EPG/master/arEPG.xml
 
 arabia2.xml
 https://www.bevy.be/bevyfiles/arabia.xml
