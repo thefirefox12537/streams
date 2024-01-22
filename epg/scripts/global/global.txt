@@ -1,16 +1,19 @@
 i.mjh.nz.xml
 https://i.mjh.nz/all/epg.xml
 
-Optus.xml
-https://i.mjh.nz/Optus/epg.xml
-
 PlutoTV.xml
 https://i.mjh.nz/PlutoTV/all.xml
 
 SamsungTVPlus.xml
 https://i.mjh.nz/SamsungTVPlus/all.xml
 
+Optus.xml
+https://epg.ninja/epg/MISC/AUSoptus.xml
+
 arabia.xml
+https://raw.githubcontent.com/bebawy6/EPG/master/arEPG.xml
+
+arabia2.xml
 https://www.bevy.be/bevyfiles/arabia.xml
 
 arabiapremiumar.xml
