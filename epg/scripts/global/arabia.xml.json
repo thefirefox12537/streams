@@ -1,0 +1,47 @@
+[
+  {
+    "origin": "SSC 1 4K",
+    "channel_name": "SA: SSC 1",
+    "channel_id": "SSC1.sa"
+  },
+  {
+    "origin": "SSC 2 4K",
+    "channel_name": "SA: SSC 2",
+    "channel_id": "SSC2.sa"
+  },
+  {
+    "origin": "SSC 3 4K",
+    "channel_name": "SA: SSC 3",
+    "channel_id": "SSC3.sa"
+  },
+  {
+    "origin": "SSC 4 4K",
+    "channel_name": "SA: SSC 4",
+    "channel_id": "SSC4.sa"
+  },
+  {
+    "origin": "SSC 5 4K",
+    "channel_name": "SA: SSC 5",
+    "channel_id": "SSC5.sa"
+  },
+  {
+    "origin": "SSC Extra 1 HD",
+    "channel_name": "SA: SSC Extra 1",
+    "channel_id": "SSCExtra1.sa"
+  },
+  {
+    "origin": "SSC Extra 2 HD",
+    "channel_name": "SA: SSC Extra 2",
+    "channel_id": "SSCExtra2.sa"
+  },
+  {
+    "origin": "SSC Extra 3 HD",
+    "channel_name": "SA: SSC Extra 3",
+    "channel_id": "SSCExtra3.sa"
+  },
+  {
+    "origin": "SSC News HD",
+    "channel_name": "SA: SSC News",
+    "channel_id": "SSCNews.sa"
+  }
+]
