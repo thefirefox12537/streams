@@ -82,6 +82,15 @@ https://www.bevy.be/bevyfiles/indiapremium1.xml
 indiapremium2.xml
 https://www.bevy.be/bevyfiles/indiapremium2.xml
 
+indiapremium3.xml
+https://www.bevy.be/bevyfiles/indiapremium3.xml
+
+indiapremium4.xml
+https://www.bevy.be/bevyfiles/indiapremium4.xml
+
+indiapremium5.xml
+https://www.bevy.be/bevyfiles/indiapremium5.xml
+
 ireland.xml
 https://www.bevy.be/bevyfiles/ireland.xml
 
@@ -165,6 +174,15 @@ https://www.bevy.be/bevyfiles/southafricapremium.xml
 
 spain.xml
 https://www.bevy.be/bevyfiles/spain.xml
+
+sportspremium1.xml
+https://www.bevy.be/bevyfiles/sportspremium1.xml
+
+sportspremium2.xml
+https://www.bevy.be/bevyfiles/sportspremium2.xml
+
+sportspremium3.xml
+https://www.bevy.be/bevyfiles/sportspremium3.xml
 
 sweden.xml
 https://www.bevy.be/bevyfiles/sweden.xml
