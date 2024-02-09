@@ -1,58 +1,20 @@
-<?XML version="1.0" encoding="UTF-8"?>
-<MPD
-  xmlns="urn:mpeg:dash:schema:mpd:2011"
-  profiles="urn:mpeg:dash:profile:isoff-live:2011"
-  minBufferTime="PT0.60S"
-  mediaPresentationDuration="PT1M0.000S"
-  type="static">
-  <Period>
-    <AdaptationSet
-      mimeType="video/mp4"
-      segmentAlignment="true"
-      startWithSAP="1"
-      maxWidth="1920"
-      maxHeight="1080">
-      <SegmentTemplate
-        timescale="1000"
-        duration="600"
-        initialization="$RepresentationID$/init.mp4"
-        media="$RepresentationID$/seg-$Number$.m4s"
-        startNumber="1"/>
-      <Representation
-        id="resources/avc1/1"
-        codecs="avc1.640028"
-        width="1920"
-        height="1080"
-        scanType="progressive"
-        frameRate="25"
-        bandwidth="1310183"/>
-      <Representation
-        id="resources/avc1/2"
-        codecs="avc1.64001E"
-        width="640"
-        height="480"
-        scanType="progressive"
-        frameRate="25"
-        bandwidth="230402"/>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Libretelevision offline stream mode -->
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xlink="http://www.w3.org/1999/xlink" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" minBufferTime="PT0.600S" mediaPresentationDuration="PT12.000S">
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2024-02-09T05:34:55.543Z" />
+  <BaseURL>http://103.152.118.53:80/play/nosignal/</BaseURL>
+  <Period id="1" start="PT0.000S" duration="PT12.000S">
+    <AdaptationSet id="1" mimeType="video/mp4" contentType="video" segmentAlignment="true" startWithSAP="1">
+      <SegmentTemplate timescale="1000" duration="600" startNumber="1707457015001" initialization="$RepresentationID$_$Bandwidth$_init.m4i" media="$RepresentationID$_$Bandwidth$_$Number$.m4v" />
+      <Representation id="avc1.64001E" codecs="avc1.64001E" bandwidth="230402" width="640" height="480" frameRate="25" scanType="progressive" />
+      <Representation id="avc1.64001E" codecs="avc1.64001E" bandwidth="418454" width="640" height="480" frameRate="25" scanType="progressive" />
+      <Representation id="avc1.640028" codecs="avc1.640028" bandwidth="1310183" width="1920" height="1080" frameRate="25" scanType="progressive" />
+      <Representation id="avc1.640028" codecs="avc1.640028" bandwidth="1518144" width="1920" height="1080" frameRate="25" scanType="progressive" />
     </AdaptationSet>
-    <AdaptationSet
-      mimeType="audio/mp4"
-      startWithSAP="1"
-      segmentAlignment="true">
-      <SegmentTemplate
-        timescale="1000"
-        duration="600"
-        initialization="$RepresentationID$/init.mp4"
-        media="$RepresentationID$/seg-$Number$.m4s"
-        startNumber="1"/>
-      <Representation
-        id="resources/mp4a.40.2"
-        codecs="mp4a.40.2"
-        bandwidth="159678"
-        audioSamplingRate="48000">
-        <AudioChannelConfiguration
-          schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration"
-          value="2"/>
+    <AdaptationSet id="2" mimeType="audio/mp4" contentType="audio" lang="und" segmentAlignment="true" startWithSAP="1">
+      <SegmentTemplate timescale="1000" duration="600" startNumber="1707457015001" initialization="$RepresentationID$_$Bandwidth$_init.m4i" media="$RepresentationID$_$Bandwidth$_$Number$.m4a" />
+      <Representation id="mp4a.40.2" codecs="mp4a.40.2" bandwidth="159678" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
       </Representation>
     </AdaptationSet>
   </Period>
