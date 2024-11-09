@@ -37,4 +37,4 @@ jobs:
         run: |
           git add -A
           git commit -m "Generate EPG every day"
-          git push
+          git push -u origin --all
